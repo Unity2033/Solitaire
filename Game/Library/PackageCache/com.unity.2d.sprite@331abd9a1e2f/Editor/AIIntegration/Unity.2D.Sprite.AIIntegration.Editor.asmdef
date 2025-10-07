@@ -1,0 +1,22 @@
+{
+    "name": "Unity.2D.Sprite.AIIntegration.Editor",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.ai.generators",
+            "expression": "",
+            "define": "UNITY_AI_ENABLED"
+        }
+    ],
+    "noEngineReferences": false
+}

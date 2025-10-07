@@ -1,0 +1,25 @@
+{
+  "name": "Unity.2D.SpriteShape.Runtime",
+  "references": [
+    "Unity.InternalAPIEngineBridge.001",
+    "Unity.2D.Common.Runtime",
+    "Unity.Mathematics",
+    "Unity.Burst"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": true,
+  "versionDefines": [
+    {
+      "name": "com.unity.burst",
+      "expression": "0.0.1",
+      "define": "ENABLE_SPRITESHAPE_BURST"
+    },
+    {
+      "name": "com.unity.polyspatial.serialization",
+      "expression": "0.0.1",
+      "define": "ENABLE_SPRITESHAPE_POLYSPATIAL_SERIALIZATION"
+    }
+  ],
+  "noEngineReferences": false
+}

@@ -89,10 +89,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffba35bfa5da25548a23678f75f2f910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rank: 0
   suit: 0
   sprite: {fileID: 0}
+  childrens:
+  - {fileID: 0}
+  - {fileID: 0}
   spriteAtlas: {fileID: 100100200, guid: 5026f1425baddcb4c8815279900eb880, type: 3}
+  <Rank>k__BackingField: 0
 --- !u!114 &4018188910445547516
 MonoBehaviour:
   m_ObjectHideFlags: 0

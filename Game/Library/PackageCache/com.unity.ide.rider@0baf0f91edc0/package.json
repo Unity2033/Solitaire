@@ -1,0 +1,26 @@
+{
+  "name": "com.unity.ide.rider",
+  "displayName": "JetBrains Rider Editor",
+  "description": "The JetBrains Rider Editor package provides an integration for using the JetBrains Rider IDE as a code editor for Unity. It adds support for generating .csproj files for code completion and auto-discovery of installations.",
+  "version": "3.0.37",
+  "unity": "2021.3",
+  "dependencies": {
+    "com.unity.ext.nunit": "1.0.6"
+  },
+  "relatedPackages": {
+    "com.unity.ide.rider.tests": "3.0.37"
+  },
+  "_upm": {
+    "changelog": "- Automatic update generated projects, when Roslyn AdditionalFiles are changed\n- Remove .editorconfig from distributed package to not prevent hiding warnings with a top user .editorconfig"
+  },
+  "upmCi": {
+    "footprint": "0afa51a46af643d865d2d74769bf545be8b65a2d"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git",
+    "type": "git",
+    "revision": "39f00cc44029286564f951484a56b488a35df36d"
+  },
+  "_fingerprint": "0baf0f91edc004d6f71bbd74a38e2503a5f1228b"
+}

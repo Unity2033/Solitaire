@@ -1,0 +1,33 @@
+{
+  "name": "com.unity.collections",
+  "displayName": "Collections",
+  "version": "2.5.7",
+  "unity": "2022.3",
+  "unityRelease": "20f1",
+  "dependencies": {
+    "com.unity.burst": "1.8.19",
+    "com.unity.mathematics": "1.3.2",
+    "com.unity.nuget.mono-cecil": "1.11.5",
+    "com.unity.test-framework": "1.4.6",
+    "com.unity.test-framework.performance": "3.0.3"
+  },
+  "description": "A C# collections library providing data structures that can be used in jobs, and optimized by Burst compiler.",
+  "keywords": [
+    "dots",
+    "collections",
+    "unity"
+  ],
+  "_upm": {
+    "changelog": "### Changed\n\n* Updated the `com.unity.entities` dependency to version `1.3.14`\n* Updated the `com.unity.burst` dependency to version `1.8.19`\n* Updated the `com.unity.nuget.mono-cecil` dependency to version `1.11.5`\n* Updated the `com.unity.test-framework dependency` to version `1.4.6`\n* The minimum supported editor version is now 2022.3.20f1\n\n### Fixed\n\n* UnsafeQueue memory leak due to OnDomainUnload callback being discarded by Burst."
+  },
+  "upmCi": {
+    "footprint": "28c415b38eb6d8a3d2dd79fb0124f6da3b7dc60a"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.collections@2.5/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+    "type": "git",
+    "revision": "2520fc806449bf4c278c9031eb21f0a6aeccda46"
+  },
+  "_fingerprint": "d49facba0036aa0e1508296262f9d93b44d1ab3b"
+}

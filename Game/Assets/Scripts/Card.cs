@@ -12,7 +12,10 @@ public enum Suit
 public class Card : MonoBehaviour
 {
     [SerializeField] Suit suit;
+
     [SerializeField] Image sprite;
+    [SerializeField] Image [ ] childrens;
+
     [SerializeField] SpriteAtlas spriteAtlas;
 
     [field: SerializeField] public int Rank { get; private set; }
@@ -28,6 +31,12 @@ public class Card : MonoBehaviour
         this.suit = suit;
 
         sprite.sprite = spriteAtlas.GetSprite(spriteName);
+    }
+
+    public void SetHierarchy(Image left, Image right)
+    {
+        childrens[0] = left;
+        childrens[1] = right;
     }
 
     public void Select()

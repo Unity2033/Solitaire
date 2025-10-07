@@ -1,0 +1,11 @@
+{
+  "name": "com.unity.render-pipelines.universal-config",
+  "description": "Configuration files for the Universal Render Pipeline.",
+  "version": "17.0.3",
+  "unity": "6000.0",
+  "displayName": "Universal Render Pipeline Config",
+  "dependencies": {
+    "com.unity.render-pipelines.core": "17.0.3"
+  },
+  "_fingerprint": "8dc1aab4af1d718781689a36ed5231a35ad1a524"
+}

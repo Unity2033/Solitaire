@@ -1,10 +1,10 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PlacementManager : MonoBehaviour
 {
-    [SerializeField] int random;
+    [SerializeField] int count;
 
     [SerializeField] float offset;
 
@@ -12,9 +12,9 @@ public class PlacementManager : MonoBehaviour
 
     [SerializeField] Transform parentTransform;
 
-    public void Placement(List<Image> images, int count = 7)
+    public void Placement(List<Image> images, int row = 7)
     {
-        for (int i = 0; i < count; i++)
+        for (int i = 0; i < row; i++)
         {
             for (int j = 0; j <= i; j++)
             {
@@ -27,13 +27,9 @@ public class PlacementManager : MonoBehaviour
                     positionX = -offset * i;
                 }
 
-                random = Random.Range(0, images.Count);
+                images[count].transform.SetParent(parentTransform);
 
-                images[random].transform.SetParent(parentTransform);
-
-                images[random].rectTransform.anchoredPosition = new Vector3(positionX, offset * -i, 0);
-
-                images.Remove(images[random]);
+                images[count++].rectTransform.anchoredPosition = new Vector3(positionX, offset * -i, 0);
             }
         }
     }

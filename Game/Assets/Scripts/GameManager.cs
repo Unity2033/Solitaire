@@ -4,6 +4,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] int sum;
+    [SerializeField] int index;
+
     [SerializeField] List<Card> list;
 
     private static GameManager instance;
@@ -17,15 +19,22 @@ public class GameManager : MonoBehaviour
 
     public void Calculate(Card card)
     {
+        if (card.Rank == 13)
+        {
+            card.gameObject.SetActive(false);
+
+            return;
+        }
+
         list.Add(card);
 
-        if (list.Count > 1)
+        if (list.Count == 2)
         {
             sum = list[0].Rank + list[1].Rank;
 
-            if(sum == 13)
+            if (sum == 13)
             {
-                Debug.Log(sum);
+                card.gameObject.SetActive(false);
             }
 
             list.Clear();

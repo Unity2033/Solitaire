@@ -1,0 +1,29 @@
+{
+    "name": "Unity.InternalAPIEditorBridge.001",
+    "rootNamespace": "",
+    "references": [
+        "Unity.2D.Sprite.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.2d.muse",
+            "expression": "",
+            "define": "ENABLE_FOR_2D_MUSE"
+        },
+        {
+          "name": "Unity",
+          "expression": "6000.2.0a9",
+          "define": "ENABLE_SPRITEMODULE_MODE"
+        }
+    ],
+    "noEngineReferences": false
+}
