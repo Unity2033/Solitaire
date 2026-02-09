@@ -20,14 +20,14 @@ public class Deck : MonoBehaviour
         relationManager = GetComponent<RelationManager>();
 
         placementManager = GetComponent<PlacementManager>();
+
+        factory = new Factory(Resources.Load<Image>("Card"));
+
+        list = factory.Create(createCount);
     }
 
     void Start()
     {
-        factory = new Factory(Resources.Load<Image>("Card"));
-
-        list = factory.Create(createCount);
-
         Shuffle(); 
 
         placementManager.Placement(list);

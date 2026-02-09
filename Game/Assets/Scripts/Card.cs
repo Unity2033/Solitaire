@@ -1,9 +1,8 @@
+using System;
 using UnityEngine;
 using UnityEngine.U2D;
 using UnityEngine.UI;
 
-using UnityEngine.EventSystems;
-using Unity.VisualScripting;
 public enum Suit
 {
     Spade, Heart, Diamond, Club
@@ -11,36 +10,84 @@ public enum Suit
 
 public class Card : MonoBehaviour
 {
-    [SerializeField] Suit suit;
+    [SerializeField] Data data;
 
     [SerializeField] Image sprite;
+    [SerializeField] Outline outLine;
+
     [SerializeField] Image [ ] childrens;
 
     [SerializeField] SpriteAtlas spriteAtlas;
+    
+    public event Action OnDisabled;
 
-    [field: SerializeField] public int Rank { get; private set; }
+    public int Point { get { return data.Rank; } }
 
     private void Awake()
     {
         sprite = GetComponent<Image>();
+
+        outLine = GetComponent<Outline>();
+    }
+
+    private void OnDisable()
+    {
+        OnDisabled?.Invoke();
     }
 
     public void Initialize(int rank, Suit suit, string spriteName)
     {
-        Rank = rank;
-        this.suit = suit;
+        data.Rank = rank;
+        data.Suit = suit;
 
         sprite.sprite = spriteAtlas.GetSprite(spriteName);
     }
 
-    public void SetHierarchy(Image left, Image right)
+    public bool Same(Card card)
     {
-        childrens[0] = left;
-        childrens[1] = right;
+        if(card.Point == data.Rank && data.Suit == card.data.Suit)
+        {
+            return true;
+        }  
+        
+        return false;
+    }
+
+    public void SetHierarchy(Card left, Card right)
+    {
+        childrens[0] = left.GetComponent<Image>();
+        childrens[1] = right.GetComponent<Image>();
+
+        left.OnDisabled += Recalculate;     
+        right.OnDisabled += Recalculate;
+
+        Recalculate();
+    }
+
+    public void Recalculate()
+    {
+        foreach(var element in childrens)
+        {
+            if(element.gameObject.activeSelf == true)
+            {
+                sprite.raycastTarget = false;
+
+                return;
+            }
+        }
+
+        sprite.raycastTarget = true;
     }
 
     public void Select()
     {
+        outLine.enabled = true;
+
         GameManager.Instance.Calculate(this);
+    }
+
+    public void Revert()
+    {
+        outLine.enabled = false;
     }
 }

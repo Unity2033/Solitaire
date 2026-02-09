@@ -6,7 +6,7 @@ public class RelationManager : MonoBehaviour
 {
     [SerializeField] int count;
 
-    [SerializeField] List<List<Image>> hierarchy ;
+    [SerializeField] List<List<Image>> hierarchy;
 
     void Awake()
     {
@@ -23,7 +23,7 @@ public class RelationManager : MonoBehaviour
 
                 Image right = hierarchy[i + 1][j + 1];
 
-                hierarchy[i][j].GetComponent<Card>().SetHierarchy(left, right);
+                hierarchy[i][j].GetComponent<Card>().SetHierarchy(left.GetComponent<Card>(), right.GetComponent<Card>());
             }
         }
     }

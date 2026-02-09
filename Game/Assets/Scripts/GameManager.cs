@@ -1,25 +1,26 @@
 using System.Collections.Generic;
+using System.Security;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager : Singleton<GameManager>
 {
-    [SerializeField] int sum;
-    [SerializeField] int index;
-
     [SerializeField] List<Card> list;
-
-    private static GameManager instance;
-
-    public static GameManager Instance { get { return instance; } }
-
-    private void Awake()
-    {
-        instance = this;
-    }
 
     public void Calculate(Card card)
     {
-        if (card.Rank == 13)
+        if (list.Count >= 1)
+        {
+            if (list[0].Same(card))
+            {
+                list[0].GetComponent<Card>().Revert();
+
+                list.RemoveAt(0);
+
+                return;
+            }
+        }
+            
+        if (card.Point == 13)
         {
             card.gameObject.SetActive(false);
 
@@ -28,16 +29,21 @@ public class GameManager : MonoBehaviour
 
         list.Add(card);
 
-        if (list.Count == 2)
+        if (list.Count >= 2)
         {
-            sum = list[0].Rank + list[1].Rank;
-
-            if (sum == 13)
+            if ((list[0].Point + list[1].Point) == 13)
             {
-                card.gameObject.SetActive(false);
-            }
+                list[0].gameObject.SetActive(false);
+                list[1].gameObject.SetActive(false);
 
-            list.Clear();
+                list.Clear();
+            }
+            else
+            {
+                list[0].GetComponent<Card>().Revert();
+              
+                list.RemoveAt(0);
+            }
         }
     }
 }

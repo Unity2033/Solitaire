@@ -27,7 +27,7 @@ public class Factory
 
             Image clone = Object.Instantiate(prefab);
 
-            clone.GetComponent<Card>().Initialize((i % 13) + 1, suit, suit.ToString() + "_" + ((i % 13) + 1));
+            clone.GetComponent<Card>().Initialize((i % 13) + 1, suit, suit.ToString() + " " + ((i % 13) + 1));
 
             list.Add(clone);
         }
