@@ -5,16 +5,16 @@ using UnityEngine.UI;
 
 public class Factory
 {
-    private Image prefab;
+    private Card prefab;
 
-    public Factory(Image image) 
+    public Factory(Card clone) 
     {
-        prefab = image;
+        prefab = clone;
     }
 
-    public List<Image> Create(int count)
+    public List<Card> Create(int count)
     {
-        List<Image> list = new();
+        List<Card> list = new();
 
         Suit suit = 0;
 
@@ -25,11 +25,11 @@ public class Factory
                 suit++;
             }
 
-            Image clone = Object.Instantiate(prefab);
+            Card card = Object.Instantiate(prefab);
 
-            clone.GetComponent<Card>().Initialize((i % 13) + 1, suit, suit.ToString() + " " + ((i % 13) + 1));
+            card.Initialize((i % 13) + 1, suit, suit.ToString() + " " + ((i % 13) + 1));
 
-            list.Add(clone);
+            list.Add(card);
         }
 
         return list;

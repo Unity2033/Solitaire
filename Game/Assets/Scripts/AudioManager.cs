@@ -14,13 +14,18 @@ public class AudioManager : Singleton<AudioManager>
 
     public void Emit(string name)
     {
-        AudioClip audioClip = null;
-
-        if (dictionary.TryGetValue(name, out audioClip) == false)
+        if (!dictionary.TryGetValue(name, out AudioClip audioClip))
         {
-            dictionary.Add(name, Resources.Load<AudioClip>(name));
+            audioClip = Resources.Load<AudioClip>(name);
 
-            audioClip = dictionary[name];
+            if (audioClip == null)
+            {
+                Debug.LogWarning($"Audio not found: {name}");
+
+                return;
+            }
+
+            dictionary.Add(name, audioClip);
         }
 
         audioSource.PlayOneShot(audioClip);

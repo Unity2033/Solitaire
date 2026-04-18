@@ -1,49 +1,31 @@
 using System.Collections.Generic;
 using System.Security;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : Singleton<GameManager>
 {
-    [SerializeField] List<Card> list;
+    [SerializeField] Waste waste;
 
-    public void Calculate(Card card)
+    public bool Examine(Card card)
     {
-        if (list.Count >= 1)
+        int difference = Mathf.Abs(card.Point - waste.Peek().Point);
+
+        if (difference == 1)
         {
-            if (list[0].Same(card))
-            {
-                list[0].GetComponent<Card>().Revert();
+            waste.Push(card);
 
-                list.RemoveAt(0);
+            ScoreManager.Instance.Increase();
 
-                return;
-            }
+            return true;
         }
-            
-        if (card.Point == 13)
+        else
         {
-            card.gameObject.SetActive(false);
+            ScoreManager.Instance.Reset();
 
-            return;
-        }
-
-        list.Add(card);
-
-        if (list.Count >= 2)
-        {
-            if ((list[0].Point + list[1].Point) == 13)
-            {
-                list[0].gameObject.SetActive(false);
-                list[1].gameObject.SetActive(false);
-
-                list.Clear();
-            }
-            else
-            {
-                list[0].GetComponent<Card>().Revert();
-              
-                list.RemoveAt(0);
-            }
+            return false;
         }
     }
+
+
 }

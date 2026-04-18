@@ -13,26 +13,20 @@ public class Card : MonoBehaviour
     [SerializeField] Data data;
 
     [SerializeField] Image sprite;
-    [SerializeField] Outline outLine;
 
-    [SerializeField] Image [ ] childrens;
+    [SerializeField] Card parent;
+    
+    [SerializeField] Animator animator;
 
     [SerializeField] SpriteAtlas spriteAtlas;
     
-    public event Action OnDisabled;
-
     public int Point { get { return data.Rank; } }
 
     private void Awake()
     {
         sprite = GetComponent<Image>();
 
-        outLine = GetComponent<Outline>();
-    }
-
-    private void OnDisable()
-    {
-        OnDisabled?.Invoke();
+        animator = GetComponent<Animator>();
     }
 
     public void Initialize(int rank, Suit suit, string spriteName)
@@ -43,51 +37,30 @@ public class Card : MonoBehaviour
         sprite.sprite = spriteAtlas.GetSprite(spriteName);
     }
 
-    public bool Same(Card card)
+    public void SetHierarchy(Card parentCard)
     {
-        if(card.Point == data.Rank && data.Suit == card.data.Suit)
-        {
-            return true;
-        }  
-        
-        return false;
+        parent = parentCard;
     }
 
-    public void SetHierarchy(Card left, Card right)
+    public void EnableSelection()
     {
-        childrens[0] = left.GetComponent<Image>();
-        childrens[1] = right.GetComponent<Image>();
-
-        left.OnDisabled += Recalculate;     
-        right.OnDisabled += Recalculate;
-
-        Recalculate();
-    }
-
-    public void Recalculate()
-    {
-        foreach(var element in childrens)
-        {
-            if(element.gameObject.activeSelf == true)
-            {
-                sprite.raycastTarget = false;
-
-                return;
-            }
-        }
-
         sprite.raycastTarget = true;
     }
 
     public void Select()
     {
-        outLine.enabled = true;
+        if (GameManager.Instance.Examine(this))
+        {
+            if (parent != null)
+            {
+                parent.sprite.raycastTarget = true;
+            }
 
-        GameManager.Instance.Calculate(this);
-    }
-
-    public void Revert()
-    {
-        outLine.enabled = false;
+            sprite.raycastTarget = false;
+        }
+        else
+        {
+            animator.Play("Selection Failed");
+        }
     }
 }

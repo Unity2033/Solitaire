@@ -2,39 +2,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(RelationManager))]
-[RequireComponent(typeof(PlacementManager))]
 public class Deck : MonoBehaviour
 {
     [SerializeField] int createCount;
 
     [SerializeField] Factory factory;
 
-    [SerializeField] List<Image> list;
-
-    [SerializeField] RelationManager relationManager;
-    [SerializeField] PlacementManager placementManager;
+    [SerializeField] List<Card> list;
+    
+    public int Count => list.Count;
 
     private void Awake()
     {
-        relationManager = GetComponent<RelationManager>();
-
-        placementManager = GetComponent<PlacementManager>();
-
-        factory = new Factory(Resources.Load<Image>("Card"));
+        factory = new Factory(Resources.Load<Card>("Card"));
 
         list = factory.Create(createCount);
-    }
 
-    void Start()
-    {
-        Shuffle(); 
-
-        placementManager.Placement(list);
-
-        relationManager.SetHierarchy(list);
-
-        relationManager.SetChildren();
+        Shuffle();
     }
 
     public void Shuffle()
@@ -45,6 +29,20 @@ public class Deck : MonoBehaviour
 
             (list[i], list[index]) = (list[index], list[i]);
         }
+    }
+
+    public Card Deal()
+    {
+        if (list.Count <= 0)
+        {
+            return null;
+        }
+
+        Card card = list[list.Count - 1];
+
+        list.RemoveAt(list.Count - 1);
+
+        return card; 
     }
 }
 
