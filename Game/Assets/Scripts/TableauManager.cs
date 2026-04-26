@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
@@ -9,7 +10,9 @@ public class TableauManager : MonoBehaviour
 
     [SerializeField] float offest = 450.0f;
 
-    [SerializeField] List<RectTransform> Tableaus;
+    [SerializeField] List<Tableau> tableaus;
+
+    public IEnumerable<Tableau> Tableaus => tableaus;
 
     private void Awake()
     {
@@ -18,27 +21,28 @@ public class TableauManager : MonoBehaviour
 
     public void Placement()
     {
-        for(int i = 0; i < createCount; i++)
+        for (int i = 0; i < createCount; i++)
         {
-            RectTransform clone = Instantiate(Resources.Load<RectTransform>("Tableau"), transform);
+            Tableau clone = Instantiate(Resources.Load<Tableau>("Tableau"), transform);
 
-            clone.anchoredPosition = new Vector2(-offest + i * 150, 0);
+            RectTransform rectTransform = clone.GetComponent<RectTransform>();
 
-            Tableaus.Add(clone);
+            rectTransform.anchoredPosition = new Vector2(-offest + i * 150, 0);
+
+            tableaus.Add(clone);
         }
     }
 
-    public bool Determine()
+    public IEnumerable<Card> Elements()
     {
-        foreach(RectTransform tableau in Tableaus)
+        foreach (Tableau tableau in tableaus)
         {
-            if(Tableaus.Count > 0)
+            if (tableau.Count <= 0)
             {
-                return false;
+                continue;
             }
+
+            yield return tableau.Peek;
         }
-
-        return true;
     }
-
 }

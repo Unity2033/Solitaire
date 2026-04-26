@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,21 +11,21 @@ public class Stock : MonoBehaviour
 
     [SerializeField] Button button;
 
-    void Start()
-    {
-        deck = FindAnyObjectByType<Deck>();
-        waste = FindAnyObjectByType<Waste>();
-    }
+    [SerializeField] TextMeshProUGUI textCount;
 
     public void Draw()
-    { 
+    {
         waste.Push(deck.Deal());
 
-        ScoreManager.Instance.Reset();
+        GameManager.Instance.Determine();
+
+        textCount.text = deck.Count.ToString();
+
+        AudioManager.Instance.Emit(Sound.Draw);
         
         if(deck.Count <= 0)
         {
-            button.interactable = false;
+            button.gameObject.SetActive(false);
         }         
     }
 }

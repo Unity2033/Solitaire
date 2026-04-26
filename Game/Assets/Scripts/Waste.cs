@@ -8,11 +8,6 @@ public class Waste : MonoBehaviour
 
     [SerializeField] Stack<Card> stack = new Stack<Card>();
 
-    private void Awake()
-    {
-        deck = FindAnyObjectByType<Deck>();
-    }
-
     void Start()
     {
         Push(deck.Deal());

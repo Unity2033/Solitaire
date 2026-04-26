@@ -1,22 +1,30 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : Singleton<AudioManager>
 {
-    [SerializeField] AudioSource audioSource;
+    [SerializeField] AudioSource effectAudioSource;
+    [SerializeField] AudioSource sceneryAudioSource;
 
-    [SerializeField] Dictionary<string, AudioClip> dictionary;
+    [SerializeField] Dictionary<Sound, AudioClip> dictionary;
 
     void Start()
     {
-        dictionary = new Dictionary<string, AudioClip>();
+        dictionary = new Dictionary<Sound, AudioClip>();
     }
 
-    public void Emit(string name)
+    void OnEnable()
     {
-        if (!dictionary.TryGetValue(name, out AudioClip audioClip))
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+
+    public void Emit(Sound name)
+    {
+        if (dictionary.TryGetValue(name, out AudioClip audioClip) == false)
         {
-            audioClip = Resources.Load<AudioClip>(name);
+            audioClip = Resources.Load<AudioClip>(name.ToString());
 
             if (audioClip == null)
             {
@@ -28,6 +36,19 @@ public class AudioManager : Singleton<AudioManager>
             dictionary.Add(name, audioClip);
         }
 
-        audioSource.PlayOneShot(audioClip);
+        effectAudioSource.PlayOneShot(audioClip);
     }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        sceneryAudioSource.clip = Resources.Load<AudioClip>(scene.name);
+
+        sceneryAudioSource.Play();
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
 }

@@ -20,6 +20,8 @@ public class Card : MonoBehaviour
 
     [SerializeField] SpriteAtlas spriteAtlas;
     
+    public Tableau ParentTableau { get; set; }
+
     public int Point { get { return data.Rank; } }
 
     private void Awake()

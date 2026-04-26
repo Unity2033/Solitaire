@@ -1,31 +1,44 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ScoreManager : Singleton<ScoreManager>
 {
     [SerializeField] int score;
+
+    [SerializeField] int streak;
+
     [SerializeField] TextMeshProUGUI scoreText;
 
-    [SerializeField] int combo;
-    [SerializeField] int maximumValue;
+    [SerializeField] TextMeshProUGUI[] streakTexts;
 
-    public void Increase()
+    public void Succeed()
     {
-        combo = combo + 1;
+        streak++;
 
-        score += 10 * combo;
-
-        if(combo >= maximumValue)
+        if (streak > streakTexts.Length)
         {
-            combo = 0;
+            for (int i = 0; i < streakTexts.Length; i++)
+            {
+                streakTexts[i].text = "-";
+            }
+
+            streak = 1; 
         }
+
+        streakTexts[streak - 1].text = "x" + streak;
+
+        score += 10 * streak;
 
         scoreText.text = score.ToString();
     }
 
-    public void Reset()
+    public void Failed()
     {
-        combo = 0;
+        for (int i = 0; i < streak; i++)
+        {
+            streakTexts[i].text = "-";
+        }
+
+        streak = 0;
     }
 }
