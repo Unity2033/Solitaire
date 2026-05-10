@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,6 +8,13 @@ public class Waste : MonoBehaviour
     [SerializeField] Deck deck;
 
     [SerializeField] Stack<Card> stack = new Stack<Card>();
+
+    [SerializeField] RectTransform slot;
+
+    private void Awake()
+    {
+        slot = GetComponent<RectTransform>();
+    }
 
     void Start()
     {
@@ -20,13 +28,7 @@ public class Waste : MonoBehaviour
 
     public void Push(Card card)
     {
-        card.transform.SetParent(transform);
-
-        RectTransform rectTransform = card.GetComponent<RectTransform>();
-
-        card.transform.localPosition = rectTransform.anchoredPosition; 
-
-        rectTransform.anchoredPosition = Vector2.zero;
+        card.Animate(slot, Vector2.zero);
 
         stack.Push(card);
     }

@@ -4,15 +4,32 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 {
     private static T instance;
 
-    public static T Instance { get { return instance; } }
-
-    protected virtual void Awake()
+    public static T Instance
     {
-        if (instance == null)
+        get
         {
-            instance = (T)FindAnyObjectByType(typeof(T));
+            if (instance == null)
+            {
+                instance = (T)FindAnyObjectByType(typeof(T));
+
+                if (instance == null)
+                {
+                    GameObject clone = new GameObject(typeof(T).Name);
+
+                    instance = clone.AddComponent<T>();
+                }
+
+                DontDestroyOnLoad(instance.gameObject);
+            }
+
+            return instance;
         }
-        else
+    }
+
+
+    protected void Awake()
+    {
+        if (instance != null)
         {
             Destroy(gameObject);
         }

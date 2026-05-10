@@ -15,6 +15,8 @@ MonoBehaviour:
   m_Keys:
   - __PanelContainer__rootVisualContainer__package-list-scrollview-key__VerticalScroller__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
   - __PanelContainer__rootVisualContainer__package-list-scrollview-key__HorizontalScroller__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__package-list-scrollview-key__UnityEditor.PackageManager.UI.Internal.PackageListScrollView
   m_Values:
-  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":835.0}'
-  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":287.0}'
+  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":3122.0}'
+  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
+  - '{"m_ScrollOffset":{"x":0.0,"y":0.0}}'

@@ -16,6 +16,8 @@ public class GameManager : Singleton<GameManager>
         if (Rule.Fits(card, waste.Peek()))
         {
             card.ParentTableau.Remove(card);
+  
+            card.OnSelectionSucceeded();
 
             waste.Push(card);
 
@@ -26,6 +28,8 @@ public class GameManager : Singleton<GameManager>
         }
         else
         {
+            card.OnSelectionFailed();
+
             ScoreManager.Instance.Failed();
             AudioManager.Instance.Emit(Sound.Failure);
 
@@ -41,12 +45,12 @@ public class GameManager : Singleton<GameManager>
     {
         if (Rule.Resolved(tableauManager.Tableaus))
         {
-            Debug.Log("V I C T O R Y");
+            
         }
         else if (Rule.ExistsPlacement(tableauManager.Elements(), waste) == false && deck.Count == 0)
         {
-            Debug.Log("D E F E A T");
-        }    
+            SceneryManager.Instance.LoadScene("Result");
+        }
     }
 
 }

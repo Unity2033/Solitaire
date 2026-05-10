@@ -13,8 +13,7 @@ GameObject:
   - component: {fileID: 4890883433484298154}
   - component: {fileID: 3960818070904817662}
   - component: {fileID: 4018188910445547516}
-  - component: {fileID: 2957382292620942122}
-  - component: {fileID: 2912841528633840057}
+  - component: {fileID: 4877002155744577780}
   m_Layer: 5
   m_Name: Card
   m_TagString: Untagged
@@ -93,7 +92,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   parent: {fileID: 0}
-  animator: {fileID: 0}
   spriteAtlas: {fileID: 100100200, guid: 5026f1425baddcb4c8815279900eb880, type: 3}
 --- !u!114 &4018188910445547516
 MonoBehaviour:
@@ -112,8 +110,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 3960818070904817662}
-          m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        - m_Target: {fileID: 4877002155744577780}
+          m_TargetAssemblyTypeName: Selectable, Assembly-CSharp
           m_MethodName: Select
           m_Mode: 1
           m_Arguments:
@@ -124,40 +122,16 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &2957382292620942122
+--- !u!114 &4877002155744577780
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357214691425434028}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
-  m_EffectColor: {r: 1, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 2.5, y: 2.5}
-  m_UseGraphicAlpha: 0
---- !u!95 &2912841528633840057
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1357214691425434028}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 46fcdda59d32aea40a11a2229782d56d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c0d76d2ce40e284b9766aaf7ea64402, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Selectable
+  card: {fileID: 0}

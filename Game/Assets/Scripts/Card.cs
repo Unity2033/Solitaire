@@ -1,7 +1,8 @@
-using System;
+﻿using System;
 using UnityEngine;
 using UnityEngine.U2D;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public enum Suit
 {
@@ -15,8 +16,6 @@ public class Card : MonoBehaviour
     [SerializeField] Image sprite;
 
     [SerializeField] Card parent;
-    
-    [SerializeField] Animator animator;
 
     [SerializeField] SpriteAtlas spriteAtlas;
     
@@ -27,8 +26,6 @@ public class Card : MonoBehaviour
     private void Awake()
     {
         sprite = GetComponent<Image>();
-
-        animator = GetComponent<Animator>();
     }
 
     public void Initialize(int rank, Suit suit, string spriteName)
@@ -49,20 +46,34 @@ public class Card : MonoBehaviour
         sprite.raycastTarget = true;
     }
 
-    public void Select()
+    public void OnSelectionFailed()
     {
-        if (GameManager.Instance.Examine(this))
-        {
-            if (parent != null)
-            {
-                parent.sprite.raycastTarget = true;
-            }
+        transform.DOKill();
 
-            sprite.raycastTarget = false;
-        }
-        else
+        DOTween.Sequence()
+        .Append(transform.DORotate(new Vector3(0, 0, 15f), 0.1f))
+        .Append(transform.DORotate(new Vector3(0, 0, -10f), 0.1f))
+        .Append(transform.DORotate(Vector3.zero, 0.2f));
+    }
+
+    public void OnSelectionSucceeded()
+    {
+        if (parent != null)
         {
-            animator.Play("Selection Failed");
+            parent.sprite.raycastTarget = true;
         }
+
+        sprite.raycastTarget = false;
+    }
+
+    public void Animate(RectTransform slot, Vector2 destination)
+    {
+        RectTransform rectTransform = GetComponent<RectTransform>();
+
+        rectTransform.SetParent(slot, true);
+
+        rectTransform.DOKill();
+
+        rectTransform.DOAnchorPos(destination, 0.5f);
     }
 }

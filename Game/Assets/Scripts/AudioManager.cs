@@ -19,7 +19,6 @@ public class AudioManager : Singleton<AudioManager>
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
-
     public void Emit(Sound name)
     {
         if (dictionary.TryGetValue(name, out AudioClip audioClip) == false)

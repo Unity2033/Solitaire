@@ -18,6 +18,11 @@ public class Deck : MonoBehaviour
 
         list = factory.Create(createCount);
 
+        foreach (Card card in list)
+        {
+            card.transform.SetParent(transform, false);
+        }
+
         Shuffle();
     }
 

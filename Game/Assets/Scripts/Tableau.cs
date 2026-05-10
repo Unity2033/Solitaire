@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -13,20 +14,25 @@ public class Tableau : MonoBehaviour
 
     [SerializeField] int createCount = 5;
 
+    [SerializeField] RectTransform rectTransform;
+
     public int Count => cards.Count;
 
     public Card Peek  => cards[cards.Count - 1];
+
+    private void Awake()
+    {
+        rectTransform = GetComponent<RectTransform>();
+    }
 
     void Start()
     {
         deck = FindAnyObjectByType<Deck>();
 
-        Initialize();
-
-        Bind();
+        StartCoroutine(Initialize());
     }
 
-    public void Initialize()
+    private IEnumerator Initialize()
     {
         for (int i = 0; i < createCount; i++)
         {
@@ -36,18 +42,13 @@ public class Tableau : MonoBehaviour
 
             card.ParentTableau = this;
 
-            card.transform.SetParent(transform);
+            card.Animate(rectTransform, new Vector2(0, -i * 100));
 
-            RectTransform rectTransform = card.GetComponent<RectTransform>();
-
-            rectTransform.anchoredPosition = new Vector2(0, -i * 100);
+            yield return new WaitForSeconds(0.1f);
         }
 
         cards[cards.Count - 1].EnableSelection();
-    }
 
-    public void Bind()
-    {
         for (int i = 1; i < createCount; i++)
         {
             cards[i].SetHierarchy(cards[i - 1]);
