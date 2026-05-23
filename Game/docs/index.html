@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Golf Solitaire - How To Play</title>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background:
+        radial-gradient(circle at top left, rgba(16,185,129,0.15), transparent 30%),
+        radial-gradient(circle at bottom right, rgba(20,184,166,0.12), transparent 30%),
+        linear-gradient(to bottom, #ecfdf5, #ffffff);
+      color: #1f2937;
+      min-height: 100vh;
+      padding: 30px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #d1fae5;
+      color: #047857;
+      padding: 10px 20px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 64px;
+      margin-bottom: 20px;
+      font-weight: 900;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      color: #6b7280;
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .rules {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-bottom: 70px;
+    }
+
+    .card {
+      position: relative;
+      overflow: hidden;
+      background: white;
+      border-radius: 30px;
+      padding: 35px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      transition: 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px) scale(1.01);
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: -60px;
+      right: -60px;
+      width: 160px;
+      height: 160px;
+      background: rgba(16,185,129,0.06);
+      border-radius: 50%;
+    }
+
+    .number {
+      width: 60px;
+      height: 60px;
+      border-radius: 20px;
+      background: #10b981;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 25px;
+    }
+
+    .card h2 {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .card p {
+      color: #6b7280;
+      line-height: 1.7;
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .example {
+      background: #f0fdf4;
+      border-radius: 20px;
+      padding: 18px 20px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #059669;
+    }
+
+    .tip-section {
+      background: white;
+      border-radius: 40px;
+      overflow: hidden;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .tip-content {
+      padding: 60px;
+    }
+
+    .tip-label {
+      display: inline-block;
+      background: #ffedd5;
+      color: #ea580c;
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 25px;
+    }
+
+    .tip-content h3 {
+      font-size: 48px;
+      margin-bottom: 25px;
+      line-height: 1.2;
+    }
+
+    .tip-content p {
+      color: #6b7280;
+      font-size: 20px;
+      line-height: 1.7;
+      margin-bottom: 35px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #10b981;
+      color: white;
+      padding: 18px 35px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .button:hover {
+      transform: scale(1.05);
+    }
+
+    .cards-preview {
+      background: linear-gradient(135deg, #34d399, #14b8a6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      padding: 50px;
+      flex-wrap: wrap;
+    }
+
+    .playing-card {
+      transition: 0.25s;
+      cursor: pointer;
+      width: 90px;
+      height: 130px;
+      background: white;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      font-weight: 900;
+      color: #10b981;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      transform: rotate(-4deg);
+    }
+
+    .playing-card:hover {
+      transform: rotate(0deg) translateY(-8px) scale(1.05);
+    }
+
+    .hero-preview {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .hero-card {
+      width: 85px;
+      height: 120px;
+      background: white;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 38px;
+      font-weight: 900;
+      color: #10b981;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+      transition: 0.25s;
+    }
+
+    .hero-card:hover {
+      transform: translateY(-10px) rotate(3deg);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    @media (max-width: 900px) {
+      .tip-section {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 48px;
+      }
+
+      .tip-content {
+        padding: 40px;
+      }
+
+      .tip-content h3 {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <div class="badge">Golf Solitaire Guide</div>
+
+      <h1>HOW TO PLAY</h1>
+
+      <div class="hero-preview">
+        <div class="hero-card">A</div>
+        <div class="hero-card">5</div>
+        <div class="hero-card">7</div>
+        <div class="hero-card">K</div>
+      </div>
+
+      <p class="subtitle" style="margin-top:40px;">
+        Clear cards by selecting one number higher or lower than the current card.
+        Build combos and clear the board to win.
+      </p>
+    </div>
+
+    <div class="rules">
+
+      <div class="card">
+        <div class="number">1</div>
+        <h2>Match Higher or Lower</h2>
+        <p>
+          Select a card that is exactly one number higher or lower than the current card.
+        </p>
+        <div class="example">7 → 6 or 8</div>
+      </div>
+
+      <div class="card">
+        <div class="number">2</div>
+        <h2>Clear the Board</h2>
+        <p>
+          Remove all cards from the board to complete the stage.
+        </p>
+        <div class="example">Remove every card!</div>
+      </div>
+
+      <div class="card">
+        <div class="number">3</div>
+        <h2>Draw New Cards</h2>
+        <p>
+          If there are no playable cards, draw a new card from the deck.
+        </p>
+        <div class="example">Use your deck carefully</div>
+      </div>
+
+      <div class="card">
+        <div class="number">4</div>
+        <h2>Create Combos</h2>
+        <p>
+          Keep matching cards without drawing to create high combo scores.
+        </p>
+        <div class="example">More combos = more points</div>
+      </div>
+
+    </div>
+
+    <div class="tip-section">
+
+      <div class="tip-content">
+        <div class="tip-label">PRO TIP</div>
+
+        <h3>Think Before Drawing</h3>
+
+        <p>
+          Sometimes waiting for a longer combo is better than drawing immediately.
+          Plan ahead and maximize your score.
+        </p>
+
+        <a href="#" class="button">Start Playing</a>
+
+        <div style="margin-top:25px; color:#9ca3af; font-size:15px;">
+          Available on Mobile & Tablet
+        </div>
+      </div>
+
+      <div class="cards-preview">
+        <div class="playing-card">5</div>
+        <div class="playing-card">6</div>
+        <div class="playing-card">7</div>
+        <div class="playing-card">8</div>
+        <div class="playing-card">9</div>
+        <div class="playing-card">10</div>
+      </div>
+
+    </div>
+
+    <footer>
+      Golf Solitaire • Casual Card Game Guide
+    </footer>
+
+  </div>
+
+</body>
+</html>
+```
