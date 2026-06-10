@@ -14,7 +14,9 @@ public class Deck : MonoBehaviour
 
     private void Awake()
     {
-        factory = new Factory(Resources.Load<Card>("Card"));
+        factory = new Factory(Resources.Load<Card>("Prefabs/Card"));
+
+        list.Capacity = createCount;
 
         list = factory.Create(createCount);
 

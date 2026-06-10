@@ -34,6 +34,8 @@ public class Tableau : MonoBehaviour
 
     private IEnumerator Initialize()
     {
+        cards.Capacity = createCount;
+
         for (int i = 0; i < createCount; i++)
         {
             Card card = deck.Deal();

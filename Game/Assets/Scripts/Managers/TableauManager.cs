@@ -21,9 +21,11 @@ public class TableauManager : MonoBehaviour
 
     public void Placement()
     {
+        tableaus.Capacity = createCount;
+
         for (int i = 0; i < createCount; i++)
         {
-            Tableau clone = Instantiate(Resources.Load<Tableau>("Tableau"), transform);
+            Tableau clone = Instantiate(Resources.Load<Tableau>("Prefabs/Tableau"), transform);
 
             RectTransform rectTransform = clone.GetComponent<RectTransform>();
 

@@ -1,11 +1,7 @@
 ﻿using GooglePlayGames;
-using System.Collections;
-
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
-public class Title : MonoBehaviour
+public class Menu : MonoBehaviour
 {
     public void Execute()
     {
@@ -16,16 +12,22 @@ public class Title : MonoBehaviour
 
     public void ReaderBoard()
     {
+        AudioManager.Instance.Emit(Sound.Button);
+
         PlayGamesPlatform.Instance.ShowLeaderboardUI();
     }
 
     public void Achievements()
     {
+        AudioManager.Instance.Emit(Sound.Button);
+
         PlayGamesPlatform.Instance.ShowAchievementsUI();
     }
 
     public void Guide()
     {
-        Application.OpenURL("file:///C:/GameGuide/Guide.html");
+        AudioManager.Instance.Emit(Sound.Button);
+
+        Application.OpenURL("https://unity2033.github.io/Solitaire/");
     }
 }

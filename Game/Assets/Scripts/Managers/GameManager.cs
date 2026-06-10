@@ -1,22 +1,32 @@
 using DG.Tweening;
-using System.Collections.Generic;
-using System.Security;
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEngine.Rendering.DebugUI;
 
-public class GameManager : Singleton<GameManager>
+public class GameManager : MonoBehaviour
 {
-    [SerializeField] bool state;
-
     [SerializeField] Deck deck;
     [SerializeField] Waste waste;
+    [SerializeField] ScoreManager scoreManager;
     [SerializeField] TableauManager tableauManager;
 
     [SerializeField] Image summary;
     [SerializeField] RectTransform resultPanel;
 
-    public bool Examine(Card card)
+    public static GameManager Instance { get; private set; }
+
+    private void Awake()
+    {
+        if(Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+
+    public void Examine(Card card)
     {
         if (Rule.Fits(card, waste.Peek()))
         {
@@ -26,40 +36,39 @@ public class GameManager : Singleton<GameManager>
 
             waste.Push(card);
 
-            ScoreManager.Instance.Succeed();
+            scoreManager.Succeed();
 
             AudioManager.Instance.Emit(Sound.Slide);
-
-            state = true;
         }
         else
         {
             card.OnSelectionFailed();
 
-            ScoreManager.Instance.Failed();
-            AudioManager.Instance.Emit(Sound.Failure);
+            scoreManager.Failed();
 
-            state = false;
+            AudioManager.Instance.Emit(Sound.Incorrect);
         }
 
         Determine();
-
-        return state;
     }
 
     public void Determine()
     {
         if (Rule.Resolved(tableauManager.Tableaus))
         {
-            Animate("Success", Ease.OutBack);
+            AudioManager.Instance.Emit(Sound.Success);
 
-            ScoreManager.Instance.Save();
+            Animate("Sprites/Success", Ease.OutBack);
+
+            scoreManager.Save();
         }
         else if (Rule.ExistsPlacement(tableauManager.Elements(), waste) == false && deck.Count == 0)
         {
-            Animate("Failure", Ease.OutBounce);
+            AudioManager.Instance.Emit(Sound.Failure);
 
-            ScoreManager.Instance.Save();
+            Animate("Sprites/Failure", Ease.OutBounce);
+
+            scoreManager.Save();
         }
     }
 
@@ -72,6 +81,13 @@ public class GameManager : Singleton<GameManager>
         resultPanel.localScale = Vector3.zero;
 
         resultPanel.DOScale(1f, 0.5f).SetEase(ease);
+    }
+
+    public void Resume()
+    {
+        AudioManager.Instance.Emit(Sound.Button);
+
+        SceneryManager.Instance.LoadScene("Title");
     }
 
 }

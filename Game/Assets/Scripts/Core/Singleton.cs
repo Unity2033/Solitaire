@@ -22,10 +22,11 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
                 DontDestroyOnLoad(instance.gameObject);
             }
 
+            DontDestroyOnLoad(instance.gameObject);
+
             return instance;
         }
     }
-
 
     protected void Awake()
     {

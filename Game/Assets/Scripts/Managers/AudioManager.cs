@@ -23,7 +23,7 @@ public class AudioManager : Singleton<AudioManager>
     {
         if (dictionary.TryGetValue(name, out AudioClip audioClip) == false)
         {
-            audioClip = Resources.Load<AudioClip>(name.ToString());
+            audioClip = Resources.Load<AudioClip>("Audios/" + name.ToString());
 
             if (audioClip == null)
             {
@@ -40,7 +40,7 @@ public class AudioManager : Singleton<AudioManager>
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        sceneryAudioSource.clip = Resources.Load<AudioClip>(scene.name);
+        sceneryAudioSource.clip = Resources.Load<AudioClip>("Audios/" + scene.name);
 
         sceneryAudioSource.Play();
     }

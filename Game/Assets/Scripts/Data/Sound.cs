@@ -2,8 +2,10 @@ public enum Sound
 {
     Draw,
     Slide,
-    Failure,
+    Incorrect,
     Bonus,
-    Button
+    Button,
+    Success,
+    Failure,
 }
 

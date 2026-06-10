@@ -3,7 +3,7 @@ using GooglePlayGames.BasicApi;
 using TMPro;
 using UnityEngine;
 
-public class ScoreManager : Singleton<ScoreManager>
+public class ScoreManager : MonoBehaviour
 {
     [SerializeField] int score;
 
@@ -13,7 +13,7 @@ public class ScoreManager : Singleton<ScoreManager>
 
     [SerializeField] TextMeshProUGUI scoreText;
 
-    [SerializeField] TextMeshProUGUI[] streakTexts;
+    [SerializeField] TextMeshProUGUI [ ] streakTexts;
 
     private void Start()
     {

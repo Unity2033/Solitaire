@@ -8,7 +8,7 @@ public class Selectable : MonoBehaviour
     {
         card = GetComponent<Card>();
     }
-
+    
     public void Select()
     {
         GameManager.Instance.Examine(card);

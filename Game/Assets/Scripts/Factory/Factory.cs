@@ -16,6 +16,8 @@ public class Factory
     {
         List<Card> list = new();
 
+        list.Capacity = 52;
+
         Suit suit = 0;
 
         for(int i = 0; i < count; i++)
