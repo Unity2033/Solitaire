@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
         {
             card.ParentTableau.Remove(card);
   
-            card.OnSelectionSucceeded();
+            card.SetSelection(false);
 
             waste.Push(card);
 

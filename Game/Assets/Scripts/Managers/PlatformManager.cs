@@ -12,7 +12,7 @@ public class PlatformManager : MonoBehaviour
     [SerializeField] RectTransform failurePanel;
 
     void Awake()
-    {      
+    {
         Connect();
     } 
 

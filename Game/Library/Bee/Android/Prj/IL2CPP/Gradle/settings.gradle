@@ -1,0 +1,31 @@
+pluginManagement {
+    repositories {
+        
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+include ':launcher', ':unityLibrary'
+include 'unityLibrary:GooglePlayGamesManifest.androidlib'
+
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        
+        google()
+        mavenCentral()
+// Android Resolver Repos Start
+        def unityProjectPath = $/file:///C:/Users/nwond/Game/Solitaire/Game/$.replace("\\", "/")
+        maven {
+            url (unityProjectPath + "/Assets/GeneratedLocalRepo/GooglePlayGames/com.google.play.games/Editor/m2repository") // Assets/GooglePlayGames/com.google.play.games/Editor/GooglePlayGamesPluginDependencies.xml:11
+        }
+        mavenLocal()
+// Android Resolver Repos End
+        flatDir {
+            dirs "${project(':unityLibrary').projectDir}/libs"
+        }
+    }
+}

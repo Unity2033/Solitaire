@@ -1,0 +1,1 @@
+C:\Users\nwond\Game\Solitaire\Game\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\o1i6y3a5\obj\arm64-v8a

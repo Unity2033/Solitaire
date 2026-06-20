@@ -11,39 +11,32 @@ public enum Suit
 
 public class Card : MonoBehaviour
 {
-    [SerializeField] Data data;
-
     [SerializeField] Image sprite;
-
-    [SerializeField] Card parent;
 
     [SerializeField] SpriteAtlas spriteAtlas;
     
     public Tableau ParentTableau { get; set; }
 
-    public int Point { get { return data.Rank; } }
+    public int Point { get; set; }
+
+    public Suit Suit { get; set; }
 
     private void Awake()
     {
         sprite = GetComponent<Image>();
     }
 
-    public void Initialize(int rank, Suit suit, string spriteName)
+    public void Initialize(int point, Suit suit, string spriteName)
     {
-        data.Rank = rank;
-        data.Suit = suit;
+        Suit = suit;
+        Point = point;
 
         sprite.sprite = spriteAtlas.GetSprite(spriteName);
     }
 
-    public void SetHierarchy(Card parentCard)
+    public void SetSelection(bool state)
     {
-        parent = parentCard;
-    }
-
-    public void EnableSelection()
-    {
-        sprite.raycastTarget = true;
+        sprite.raycastTarget = state;
     }
 
     public void OnSelectionFailed()
@@ -54,16 +47,6 @@ public class Card : MonoBehaviour
         .Append(transform.DORotate(new Vector3(0, 0, 15f), 0.1f))
         .Append(transform.DORotate(new Vector3(0, 0, -10f), 0.1f))
         .Append(transform.DORotate(Vector3.zero, 0.2f));
-    }
-
-    public void OnSelectionSucceeded()
-    {
-        if (parent != null)
-        {
-            parent.sprite.raycastTarget = true;
-        }
-
-        sprite.raycastTarget = false;
     }
 
     public void Animate(RectTransform slot, Vector2 destination)

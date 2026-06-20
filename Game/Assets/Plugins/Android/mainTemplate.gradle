@@ -12,9 +12,8 @@ dependencies {
 
 // Android Resolver Exclusions Start
 android {
-  packagingOptions {
+  packaging {
       exclude ('/lib/armeabi/*' + '*')
-      exclude ('/lib/armeabi-v7a/*' + '*')
       exclude ('/lib/mips/*' + '*')
       exclude ('/lib/mips64/*' + '*')
       exclude ('/lib/x86/*' + '*')

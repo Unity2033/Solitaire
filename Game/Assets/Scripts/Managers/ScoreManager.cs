@@ -2,12 +2,11 @@ using GooglePlayGames;
 using GooglePlayGames.BasicApi;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class ScoreManager : MonoBehaviour
 {
     [SerializeField] int score;
-
-    [SerializeField] int record;
 
     [SerializeField] int streak;
 
@@ -15,7 +14,9 @@ public class ScoreManager : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI [ ] streakTexts;
 
-    private void Start()
+    const string leaderBoard = "CggIz_bK8VIQAhAA";
+
+    private void Awake()
     {
         Load();
     }
@@ -53,31 +54,29 @@ public class ScoreManager : MonoBehaviour
 
     public void Save()
     {
-        record += score;
+        DataManager.Instance.Session.score += score;
 
-        PlayGamesPlatform.Instance.ReportScore(record, "Leader Board", success => { Debug.Log(success); });
+        PlayGamesPlatform.Instance.ReportScore(DataManager.Instance.Session.score, leaderBoard, success => { Debug.Log(success); });
     }
 
     public void Load()
     {
         PlayGamesPlatform.Instance.LoadScores
         (
-            "Leader Board",
+            leaderBoard,
             LeaderboardStart.PlayerCentered,
             1,
             LeaderboardCollection.Public,
             LeaderboardTimeSpan.AllTime,
-            data => 
-            {  
-                 if (data.Valid && data.Scores.Length > 0)
-                 {
-                     record = (int)data.Scores[0].value;
-                 }
-                 else
-                 {
-                     record = 0;
-                 }             
-            }   
+            data =>
+            {
+                if (!data.Valid || data.Scores.Length == 0)
+                    return;
+
+                int leaderboardScore = (int)data.Scores[0].value;
+
+                DataManager.Instance.Session.score = Mathf.Max( DataManager.Instance.Session.score, leaderboardScore);
+            }
         );
     }
 }

@@ -61,6 +61,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Managers\DataManager.cs" />
     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Board\Tableau.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
@@ -70,11 +71,12 @@
     <Compile Include="Assets\Scripts\User Interfaces\Menu.cs" />
     <Compile Include="Assets\Scripts\Card\Card.cs" />
     <Compile Include="Assets\Scripts\Managers\TableauManager.cs" />
+    <Compile Include="Assets\Scripts\Data\Achievements.cs" />
     <Compile Include="Assets\Scripts\Managers\SceneryManager.cs" />
     <Compile Include="Assets\Scripts\Rule\Rule.cs" />
     <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
-    <Compile Include="Assets\Scripts\Card\Data.cs" />
     <Compile Include="Assets\Scripts\Board\Waste.cs" />
+    <Compile Include="Assets\GPGSIds.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
     <Compile Include="Assets\Scripts\Deck\Deck.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleAudio.cs" />
@@ -83,9 +85,11 @@
     <Compile Include="Assets\Scripts\Managers\PlatformManager.cs" />
     <Compile Include="Assets\Scripts\Core\Singleton.cs" />
     <Compile Include="Assets\Scripts\Systems\Selectable.cs" />
+    <Compile Include="Assets\Scripts\Data\Session.cs" />
     <Compile Include="Assets\Scripts\Board\Stock.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
     <Compile Include="Assets\Scripts\Data\Sound.cs" />
+    <Compile Include="Assets\Scripts\Managers\AchievementManager.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUIToolkit.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
   </ItemGroup>

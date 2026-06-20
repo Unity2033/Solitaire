@@ -1,0 +1,23 @@
+# ninja log v5
+10	2636	8036344990982146	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	7bff5eaa7ff35b92
+189	606	8036344970698659	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	3e3dffa6e0542bf0
+37	2108	8036344985508768	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	19bfbf79b2c96daf
+608	1031	8036344974701102	C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/o1i6y3a5/obj/armeabi-v7a/libswappywrapper.so	40f19ab51b16eff6
+116	2395	8036344988556575	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	5a11e58c5e09a396
+53	2317	8036344987755755	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	33d722de1ba676a2
+73	2120	8036344985760676	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	d13a9a98db52f814
+24	2342	8036344988038015	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	9afd208e88077d91
+94	2307	8036344987674942	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	37c68bdd85ae85c5
+141	2681	8036344991413637	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	1f1cc39574e4e7f1
+2682	2887	8036344993531205	C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/o1i6y3a5/obj/armeabi-v7a/libgame.so	16bff9f3bbc020d2
+183	606	8036355198111785	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	3e3dffa6e0542bf0
+608	961	8036355201417517	C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/o1i6y3a5/obj/armeabi-v7a/libswappywrapper.so	40f19ab51b16eff6
+115	2359	8036355215275645	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	d13a9a98db52f814
+75	2362	8036355215315728	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	33d722de1ba676a2
+59	2372	8036355215594936	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	19bfbf79b2c96daf
+158	2444	8036355216388004	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	37c68bdd85ae85c5
+35	2475	8036355216709472	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	9afd208e88077d91
+138	2588	8036355217850423	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	5a11e58c5e09a396
+92	2716	8036355219157307	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	1f1cc39574e4e7f1
+16	2831	8036355220286290	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	7bff5eaa7ff35b92
+2832	3076	8036355222778111	C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/o1i6y3a5/obj/armeabi-v7a/libgame.so	16bff9f3bbc020d2

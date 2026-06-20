@@ -1,0 +1,8 @@
+// Don't perform tasks which are specific for building test APK
+if (findProperty("unity.installInBuildFolder") == "true") {
+    tasks.configureEach { task ->
+        if (task.name.contains("AndroidTest") || task.name.contains("UnitTest")) {
+            task.enabled = false
+        }
+    }
+}

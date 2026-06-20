@@ -1,0 +1,491 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "ScriptAssemblies",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/6097564273297756792.rsp",
+      "DisplayName": "Writing 6097564273297756792.rsp",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 83,
+      "PayloadLength": 7212,
+      "PayloadDebugContentSnippet": "-a=\"C:\\Users\\nwond\\Game\\Solita",
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [
+        "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
+      "DisplayName": "Extracting script serialization layouts",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" @\"Library\\Bee\\artifacts\\rsp\\6097564273297756792.rsp\"",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/netcorerun/netcorerun.exe",
+        "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "Assets/DOTween/DOTween.dll",
+        "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/Google.Play.Games.dll",
+        "Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll",
+        "Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll",
+        "Library/ScriptAssemblies/Unity.Burst.dll",
+        "Library/ScriptAssemblies/Unity.Collections.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll",
+        "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll",
+        "Library/ScriptAssemblies/Unity.Mathematics.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll",
+        "Library/ScriptAssemblies/Unity.PerformanceTesting.dll",
+        "Library/ScriptAssemblies/Unity.Rendering.LightTransport.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Shared.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.GPUDriven.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.2D.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll",
+        "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
+        "Library/ScriptAssemblies/Unity.Timeline.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
+        "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
+        "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/PackageCache/com.unity.burst@f7a407abf4d5/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll",
+        "Library/PackageCache/com.unity.burst@f7a407abf4d5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll",
+        "Library/PackageCache/com.unity.burst@f7a407abf4d5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll",
+        "Library/PackageCache/com.unity.burst@f7a407abf4d5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll",
+        "Library/PackageCache/com.unity.burst@f7a407abf4d5/Unity.Burst.Unsafe.dll",
+        "Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
+        "Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections.Tests/System.IO.Hashing/System.IO.Hashing.dll",
+        "Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll",
+        "Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.Mdb.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.Pdb.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.Rocks.dll",
+        "Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
+      ],
+      "InputFlags": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "Outputs": [
+        "Library/BuildPlayerData/Editor/TypeDb-All.json"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "ToBuildDependencies": [
+        2
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 3
+    },
+    {
+      "Annotation": "ScriptAssembliesAndTypeDB",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "ToBuildDependencies": [
+        1,
+        3
+      ],
+      "DebugActionIndex": 4
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline/UnityEditor.iOS.Extensions.Xcode.dll"
+    },
+    {
+      "File": "Library/Bee/1300b0aESkipCompile-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "Assets/csc.rsp"
+    },
+    {
+      "File": "Assets/DOTween/DOTween.dll"
+    },
+    {
+      "File": "Assets/mcs.rsp"
+    },
+    {
+      "File": "Library/Bee/1300b0aESkipCompile-inputdata.json"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@f7a407abf4d5/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@f7a407abf4d5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@f7a407abf4d5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@f7a407abf4d5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@f7a407abf4d5/Unity.Burst.Unsafe.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections.Tests/System.IO.Hashing/System.IO.Hashing.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom/nunit.framework.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.Mdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.Pdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.Rocks.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Google.Play.Games.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Burst.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Collections.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Mathematics.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.PerformanceTesting.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Rendering.LightTransport.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Shared.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.GPUDriven.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.2D.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Timeline.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.State.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.UI.dll"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Tools/BuildPipeline"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".pdb",
+    ".json",
+    ".csproj"
+  ],
+  "StructuredLogFileName": "Library/Bee/tundra.log.json",
+  "StateFileName": "Library/Bee/TundraBuildState.state",
+  "StateFileNameTmp": "Library/Bee/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/Bee/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/Bee/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/Bee/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
+  "EmitDataForBeeWhy": 0,
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "ScriptAssemblies": 1,
+          "ScriptAssembliesAndTypeDB": 4
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "Library/Bee/1300b0aESkipCompile.dag.json",
+  "PayloadsFile": "C:/Users/nwond/Game/Solitaire/Game/Library/Bee/1300b0aESkipCompile.dag.payloads",
+  "RelativePathToRoot": "../.."
+}

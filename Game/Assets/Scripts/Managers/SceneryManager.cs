@@ -8,7 +8,6 @@ public class SceneryManager : Singleton<SceneryManager>
 {
     [SerializeField] Image screen;
     [SerializeField] float duration;
-    [SerializeField] Canvas dynamicCanvas;
 
     private Coroutine coroutine;
 
@@ -19,15 +18,6 @@ public class SceneryManager : Singleton<SceneryManager>
 
     public void LoadScene(string sceneName)
     {
-        dynamicCanvas = GameObject.Find("Dynamic Canvas").GetComponent<Canvas>();
-
-        if(dynamicCanvas != null)
-        {
-            dynamicCanvas.gameObject.SetActive(false);
-        }
-
-        screen.sprite = Resources.Load<Sprite>("Sprites/" + sceneName);
-
         if (coroutine == null)
         {
             coroutine = StartCoroutine(SceneRoutine(sceneName));
@@ -78,8 +68,6 @@ public class SceneryManager : Singleton<SceneryManager>
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        screen.sprite = Resources.Load<Sprite>("Sprites/" + scene.name);
-
         StartCoroutine(Fade(1, 0));
     }
 }

@@ -49,12 +49,7 @@ public class Tableau : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
 
-        cards[cards.Count - 1].EnableSelection();
-
-        for (int i = 1; i < createCount; i++)
-        {
-            cards[i].SetHierarchy(cards[i - 1]);
-        }
+        cards[cards.Count - 1].SetSelection(true);
     }
 
     public void Remove(Card card)
@@ -63,7 +58,7 @@ public class Tableau : MonoBehaviour
 
         if (cards.Count > 0)
         {
-            cards[cards.Count - 1].EnableSelection();
+            cards[cards.Count - 1].SetSelection(true);
         }
     }
 }

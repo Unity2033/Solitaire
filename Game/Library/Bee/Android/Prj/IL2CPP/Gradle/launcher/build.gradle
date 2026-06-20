@@ -1,0 +1,104 @@
+apply plugin: 'com.android.application'
+apply from: 'setupSymbols.gradle'
+apply from: '../shared/keepUnitySymbols.gradle'
+apply from: '../shared/common.gradle'
+
+dependencies {
+    implementation project(':unityLibrary')
+}
+
+android {
+    namespace "com.Search.Solitaire"
+    ndkPath "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
+    ndkVersion "27.2.12479018"
+    compileSdk 36
+    buildToolsVersion = "34.0.0"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    defaultConfig {
+        applicationId "com.Search.Solitaire"
+        versionName "1.0"
+        minSdk 23
+        targetSdk 36
+        versionCode 1
+
+        ndk {
+            abiFilters "armeabi-v7a", "arm64-v8a"
+            debugSymbolLevel "none"
+        }
+    }
+
+    lint {
+        abortOnError false
+    }
+
+    androidResources {
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
+        noCompress = ['.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp'] + unityStreamingAssets.tokenize(', ')
+    }
+
+    packaging {
+        jniLibs {
+            useLegacyPackaging true
+        }
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('C:/Users/nwond/Game/Solitaire/Game/Keystore/user.keystore')
+            storePassword 'Pressure'
+            keyAlias 'file'
+            keyPassword 'Pressure'
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled = false
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+            jniDebuggable = true
+            signingConfig signingConfigs.release
+        }
+
+        release {
+            minifyEnabled = false
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+            signingConfig signingConfigs.release
+        }
+    }
+
+    androidComponents {
+        onVariants(selector().all(), { variant ->
+            variant.bundleConfig.addMetadataFile(
+                "com.unity",
+                project.layout.file(project.providers.provider { new File("dependencies.pb") })
+            )
+            variant.bundleConfig.addMetadataFile(
+                "com.unity",
+                project.layout.file(project.providers.provider { new File("app-metadata.properties") })
+            )
+        })
+    }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+
+        density {
+            enableSplit = false
+        }
+
+        abi {
+            enableSplit = true
+        }
+
+        texture {
+            enableSplit = true
+        }
+    }
+}

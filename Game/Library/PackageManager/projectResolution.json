@@ -1,18 +1,18 @@
 {
   "context": {
-    "projectPath": "C:/Users/nwond/OneDrive/바탕 화면/Solitaire/Game/Packages",
+    "projectPath": "C:/Users/nwond/Game/Solitaire/Game/Packages",
     "unityVersion": "6000.2.6f2"
   },
   "inputs": [
-    "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Packages\\manifest.json",
-    "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Packages\\packages-lock.json",
+    "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Packages\\manifest.json",
+    "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Packages\\packages-lock.json",
     "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.collab-proxy@2.9.3": {
       "name": "com.unity.collab-proxy",
       "displayName": "Unity Version Control",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.collab-proxy@ab839cc7d2ad",
       "fingerprint": "ab839cc7d2adf143e5378baf46edc31cbc5d84f7",
       "editorCompatibility": "2021.3.0f1",
       "version": "2.9.3",
@@ -22,7 +22,7 @@
     "com.unity.feature.2d@2.0.1": {
       "name": "com.unity.feature.2d",
       "displayName": "2D",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.feature.2d@dd1ea8910f12",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.feature.2d@dd1ea8910f12",
       "fingerprint": "dd1ea8910f12f021c166e8d0d78de44f1390ff6b",
       "version": "2.0.1",
       "source": "builtin",
@@ -31,7 +31,7 @@
     "com.unity.ide.rider@3.0.37": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.ide.rider@0baf0f91edc0",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.ide.rider@0baf0f91edc0",
       "fingerprint": "0baf0f91edc004d6f71bbd74a38e2503a5f1228b",
       "editorCompatibility": "2021.3.0a1",
       "version": "3.0.37",
@@ -41,7 +41,7 @@
     "com.unity.ide.visualstudio@2.0.23": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13",
       "fingerprint": "198cdf337d13c83ca953581515630d66b779e92b",
       "editorCompatibility": "2019.4.25f1",
       "version": "2.0.23",
@@ -51,7 +51,7 @@
     "com.unity.inputsystem@1.14.2": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.inputsystem@be6c4fd0abf5",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.inputsystem@be6c4fd0abf5",
       "fingerprint": "be6c4fd0abf5b9b45f956b97294032a67f3c2f4d",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.14.2",
@@ -61,7 +61,7 @@
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
       "fingerprint": "f3fb577b3546594b97b8cc34307cd621f60f1c73",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.0",
@@ -71,7 +71,7 @@
     "com.unity.render-pipelines.universal@17.2.0": {
       "name": "com.unity.render-pipelines.universal",
       "displayName": "Universal Render Pipeline",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.render-pipelines.universal@1e1527b3a17b",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.render-pipelines.universal@1e1527b3a17b",
       "fingerprint": "1e1527b3a17b44f31a422fe35668ce3076b746a1",
       "editorCompatibility": "6000.2.0a1",
       "version": "17.2.0",
@@ -81,7 +81,7 @@
     "com.unity.test-framework@1.6.0": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.test-framework@40b8da2bd3e9",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.test-framework@40b8da2bd3e9",
       "fingerprint": "40b8da2bd3e983adc3b78d9740a2a48ddb8f179f",
       "editorCompatibility": "6000.0.44f1",
       "version": "1.6.0",
@@ -91,7 +91,7 @@
     "com.unity.timeline@1.8.9": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.timeline@6b9e48457ddb",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.timeline@6b9e48457ddb",
       "fingerprint": "6b9e48457ddb4f64813d77fd77efc79a8f3102ae",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.8.9",
@@ -101,7 +101,7 @@
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.ugui@e375ff18e90f",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.ugui@e375ff18e90f",
       "fingerprint": "e375ff18e90f823f9c3d4ffbc1532d6cde85ed48",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
@@ -111,7 +111,7 @@
     "com.unity.visualscripting@1.9.7": {
       "name": "com.unity.visualscripting",
       "displayName": "Visual Scripting",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485",
       "fingerprint": "6279e2b7c4858e56cca7f367cd38c49ef66778c9",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.9.7",
@@ -393,7 +393,7 @@
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff",
       "fingerprint": "031a54704bffe39e6a0324909f8eaa4565bdebf2",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
@@ -403,7 +403,7 @@
     "com.unity.render-pipelines.core@17.2.0": {
       "name": "com.unity.render-pipelines.core",
       "displayName": "Scriptable Render Pipeline Core",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.render-pipelines.core@317e801bb3aa",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.render-pipelines.core@317e801bb3aa",
       "fingerprint": "317e801bb3aaa64596e4ec903cb788a0dfb07788",
       "editorCompatibility": "6000.2.0a1",
       "version": "17.2.0",
@@ -413,7 +413,7 @@
     "com.unity.shadergraph@17.2.0": {
       "name": "com.unity.shadergraph",
       "displayName": "Shader Graph",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.shadergraph@5516e0d97518",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.shadergraph@5516e0d97518",
       "fingerprint": "5516e0d9751810ec70d19bca7a5251cbecd2b5ca",
       "editorCompatibility": "6000.2.0a1",
       "version": "17.2.0",
@@ -423,7 +423,7 @@
     "com.unity.render-pipelines.universal-config@17.0.3": {
       "name": "com.unity.render-pipelines.universal-config",
       "displayName": "Universal Render Pipeline Config",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@8dc1aab4af1d",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@8dc1aab4af1d",
       "fingerprint": "8dc1aab4af1d718781689a36ed5231a35ad1a524",
       "editorCompatibility": "6000.0.0a1",
       "version": "17.0.3",
@@ -433,7 +433,7 @@
     "com.unity.2d.animation@12.0.2": {
       "name": "com.unity.2d.animation",
       "displayName": "2D Animation",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.animation@34e0443c58ed",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.animation@34e0443c58ed",
       "fingerprint": "34e0443c58ed65e66d21023245d2862e066ab2e7",
       "editorCompatibility": "6000.2.0b4",
       "version": "12.0.2",
@@ -443,7 +443,7 @@
     "com.unity.2d.pixel-perfect@5.1.0": {
       "name": "com.unity.2d.pixel-perfect",
       "displayName": "2D Pixel Perfect",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.pixel-perfect@2f2037a56bf7",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.pixel-perfect@2f2037a56bf7",
       "fingerprint": "2f2037a56bf7822af81e9898037a0aac12686533",
       "editorCompatibility": "2021.3.0a1",
       "version": "5.1.0",
@@ -453,7 +453,7 @@
     "com.unity.2d.psdimporter@11.0.1": {
       "name": "com.unity.2d.psdimporter",
       "displayName": "2D PSD Importer",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.psdimporter@0adcab25a8fd",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.psdimporter@0adcab25a8fd",
       "fingerprint": "0adcab25a8fd3537d5829f344f6e2aa236d0cf8e",
       "editorCompatibility": "6000.2.0a10",
       "version": "11.0.1",
@@ -463,7 +463,7 @@
     "com.unity.2d.sprite@1.0.0": {
       "name": "com.unity.2d.sprite",
       "displayName": "2D Sprite",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.sprite@331abd9a1e2f",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.sprite@331abd9a1e2f",
       "fingerprint": "331abd9a1e2ff424a1ef2626e16936071ab7ce3d",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
@@ -473,7 +473,7 @@
     "com.unity.2d.spriteshape@12.0.1": {
       "name": "com.unity.2d.spriteshape",
       "displayName": "2D SpriteShape",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.spriteshape@1d246726c231",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.spriteshape@1d246726c231",
       "fingerprint": "1d246726c2316e2e6dd7d2aefba54ec6640affa9",
       "editorCompatibility": "6000.2.0a10",
       "version": "12.0.1",
@@ -483,7 +483,7 @@
     "com.unity.2d.tilemap@1.0.0": {
       "name": "com.unity.2d.tilemap",
       "displayName": "2D Tilemap Editor",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.tilemap@aa5f5491174d",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.tilemap@aa5f5491174d",
       "fingerprint": "aa5f5491174d692ae7c6327102931ff1f46f7d2a",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
@@ -493,7 +493,7 @@
     "com.unity.2d.tilemap.extras@5.0.1": {
       "name": "com.unity.2d.tilemap.extras",
       "displayName": "2D Tilemap Extras",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.tilemap.extras@2338d989ff2a",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.tilemap.extras@2338d989ff2a",
       "fingerprint": "2338d989ff2aec99e03da44e42ae2faf1ebc037d",
       "editorCompatibility": "6000.2.0a10",
       "version": "5.0.1",
@@ -503,7 +503,7 @@
     "com.unity.2d.aseprite@2.0.1": {
       "name": "com.unity.2d.aseprite",
       "displayName": "2D Aseprite Importer",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.aseprite@f6e7e126ac6d",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.aseprite@f6e7e126ac6d",
       "fingerprint": "f6e7e126ac6d10bfdf1ae9ac5b035bfe1619ae0d",
       "editorCompatibility": "6000.2.0a10",
       "version": "2.0.1",
@@ -513,7 +513,7 @@
     "com.unity.searcher@4.9.3": {
       "name": "com.unity.searcher",
       "displayName": "Searcher",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.searcher@1e17ce91558d",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.searcher@1e17ce91558d",
       "fingerprint": "1e17ce91558d1d9127554adc03d275f39a7466a2",
       "editorCompatibility": "2019.1.0a1",
       "version": "4.9.3",
@@ -523,7 +523,7 @@
     "com.unity.burst@1.8.24": {
       "name": "com.unity.burst",
       "displayName": "Burst",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.burst@f7a407abf4d5",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.burst@f7a407abf4d5",
       "fingerprint": "f7a407abf4d5abf19ce630824dcde261e02ed97e",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.8.24",
@@ -533,7 +533,7 @@
     "com.unity.mathematics@1.3.2": {
       "name": "com.unity.mathematics",
       "displayName": "Mathematics",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.mathematics@8017b507cc74",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.mathematics@8017b507cc74",
       "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.3.2",
@@ -543,7 +543,7 @@
     "com.unity.collections@2.5.7": {
       "name": "com.unity.collections",
       "displayName": "Collections",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.collections@d49facba0036",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.collections@d49facba0036",
       "fingerprint": "d49facba0036aa0e1508296262f9d93b44d1ab3b",
       "editorCompatibility": "2022.3.20f1",
       "version": "2.5.7",
@@ -553,7 +553,7 @@
     "com.unity.rendering.light-transport@1.0.1": {
       "name": "com.unity.rendering.light-transport",
       "displayName": "Unity Light Transport Library",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.rendering.light-transport@2c9279f90d7c",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.rendering.light-transport@2c9279f90d7c",
       "fingerprint": "2c9279f90d7c8dfb6e76e3f90b6b3be1cafabfbc",
       "editorCompatibility": "2023.3.0b1",
       "version": "1.0.1",
@@ -563,7 +563,7 @@
     "com.unity.2d.common@11.0.1": {
       "name": "com.unity.2d.common",
       "displayName": "2D Common",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.common@dd402daace1b",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.2d.common@dd402daace1b",
       "fingerprint": "dd402daace1b7dbeb70cb9e7ae044cc4b10f989a",
       "editorCompatibility": "6000.2.0a9",
       "version": "11.0.1",
@@ -573,7 +573,7 @@
     "com.unity.nuget.mono-cecil@1.11.5": {
       "name": "com.unity.nuget.mono-cecil",
       "displayName": "Mono Cecil",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d78732e851eb",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d78732e851eb",
       "fingerprint": "d78732e851eb42273c8e4d97993d3a94b207e570",
       "editorCompatibility": "2019.4.0a1",
       "version": "1.11.5",
@@ -583,7 +583,7 @@
     "com.unity.test-framework.performance@3.1.0": {
       "name": "com.unity.test-framework.performance",
       "displayName": "Performance testing API",
-      "resolvedPath": "C:\\Users\\nwond\\OneDrive\\바탕 화면\\Solitaire\\Game\\Library\\PackageCache\\com.unity.test-framework.performance@92d1d09a72ed",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.test-framework.performance@92d1d09a72ed",
       "fingerprint": "92d1d09a72ed696fa23fd76c675b29d211664b50",
       "editorCompatibility": "2020.3.0a1",
       "version": "3.1.0",
