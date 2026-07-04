@@ -7,74 +7,106 @@ using UnityEngine;
 
 public class DataManager : Singleton<DataManager>
 {
-    public Session Session => session;
+    public Session Session { get; } = new Session();
 
-    [SerializeField] Session session = new Session();
+    public State State { get; private set; } = State.NotLoaded;
 
     private ISavedGameClient SavedGameClient => PlayGamesPlatform.Instance.SavedGame;
 
-    private void Start()
+    private const string SaveName = "Data";
+
+    public void Load()
     {
-        Load(Read);
+        if (PlayGamesPlatform.Instance.localUser.authenticated == false)
+        {
+            Debug.LogWarning("GPGS not authenticated yet");
+            State = State.Failed;
+            return;
+        }
+
+        State = State.Loading;
+
+        SavedGameClient.OpenWithAutomaticConflictResolution(
+            SaveName,
+            DataSource.ReadCacheOrNetwork,
+            ConflictResolutionStrategy.UseLongestPlaytime,
+            OnLoadOpened
+        );
     }
 
-    public void Save()
-    {
-        SavedGameClient.OpenWithAutomaticConflictResolution("Data", DataSource.ReadCacheOrNetwork, ConflictResolutionStrategy.UseLongestPlaytime, Access);
-    }
-
-    private void Access(SavedGameRequestStatus status, ISavedGameMetadata game)
+    private void OnLoadOpened(SavedGameRequestStatus status, ISavedGameMetadata game)
     {
         if (status != SavedGameRequestStatus.Success)
         {
             Debug.LogError("Save Open Failed");
-
+            State = State.Failed;
             return;
         }
 
-        byte [ ] bytes = Encoding.UTF8.GetBytes(JsonUtility.ToJson(session));
-
-        var update = new SavedGameMetadataUpdate.Builder().Build();
-
-        PlayGamesPlatform.Instance.SavedGame.CommitUpdate
-        (
-            game,
-            update,
-            bytes,
-            (status, game) => Debug.Log("Save")
-        );
+        SavedGameClient.ReadBinaryData(game, OnDataRead);
     }
 
-    public void Load(Action<SavedGameRequestStatus, ISavedGameMetadata> callback)
+    private void OnDataRead(SavedGameRequestStatus status, byte[] data)
     {
-        SavedGameClient.OpenWithAutomaticConflictResolution
-        (
-            "Data",
+        if (status != SavedGameRequestStatus.Success || data == null || data.Length == 0)
+        {
+            Debug.Log("No save found. Using default session.");
+            State = State.Ready;
+            return;
+        }
+
+        try
+        {
+            string json = Encoding.UTF8.GetString(data);
+
+            // Session 객체를 유지하고 내용만 덮어쓴다.
+            JsonUtility.FromJsonOverwrite(json, Session);
+
+            State = State.Ready;
+
+            Debug.Log("Data Load Complete");
+        }
+        catch (Exception exception)
+        {
+            Debug.LogError($"Deserialize Failed : {exception}");
+            State = State.Ready;
+        }
+    }
+
+    public void Save()
+    {
+        if (State == State.NotLoaded || State == State.Loading)
+            return;
+
+        if (!PlayGamesPlatform.Instance.localUser.authenticated)
+            return;
+
+        SavedGameClient.OpenWithAutomaticConflictResolution(
+            SaveName,
             DataSource.ReadCacheOrNetwork,
             ConflictResolutionStrategy.UseLongestPlaytime,
-            callback
+            OnSaveOpened
         );
     }
 
-    private void Read(SavedGameRequestStatus status, ISavedGameMetadata game)
+    private void OnSaveOpened(SavedGameRequestStatus status, ISavedGameMetadata game)
     {
         if (status != SavedGameRequestStatus.Success)
         {
-            Debug.LogError("Load Open Failed");
-
+            Debug.LogError("Save Open Failed");
             return;
         }
 
-        SavedGameClient.ReadBinaryData(game, (readStatus, data) =>
+        byte[] bytes = Encoding.UTF8.GetBytes(JsonUtility.ToJson(Session));
+
+        var update = new SavedGameMetadataUpdate.Builder().Build();
+
+        SavedGameClient.CommitUpdate(game, update, bytes, (status, metadata) =>
         {
-            if (readStatus != SavedGameRequestStatus.Success || data == null)
-            {
-                Debug.LogError("Load Failed");
-
-                return;
-            }
-
-            session = JsonUtility.FromJson<Session>(Encoding.UTF8.GetString(data));
+            if (status == SavedGameRequestStatus.Success)
+                Debug.Log("Save Complete");
+            else
+                Debug.LogError($"Save Failed : {status}");
         });
     }
 }

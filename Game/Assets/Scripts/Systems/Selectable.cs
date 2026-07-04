@@ -11,6 +11,8 @@ public class Selectable : MonoBehaviour
     
     public void Select()
     {
+        DataManager.Instance.Session.draws = 0;
+
         GameManager.Instance.Examine(card);
     }
 }

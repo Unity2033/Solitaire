@@ -38,6 +38,8 @@ public class GameManager : MonoBehaviour
 
             scoreManager.Succeed();
 
+            DataManager.Instance.Session.selections++;
+
             AudioManager.Instance.Emit(Sound.Slide);
         }
         else
@@ -45,9 +47,11 @@ public class GameManager : MonoBehaviour
             card.OnSelectionFailed();
 
             scoreManager.Failed();
-
+    
             AudioManager.Instance.Emit(Sound.Incorrect);
         }
+
+        AchievementManager.Instance.Achieve(Achievements.Second, DataManager.Instance.Session);
 
         Determine();
     }

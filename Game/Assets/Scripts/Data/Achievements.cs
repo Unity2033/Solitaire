@@ -1,7 +1,7 @@
-using UnityEngine;
-
-[System.Serializable]
-public class Achievements
-{
-    public string [ ] missions;
+public enum Achievements
+{ 
+    First,
+    Second,
+    Third,
 }
+

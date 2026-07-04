@@ -27,10 +27,6 @@ public class TableauManager : MonoBehaviour
         {
             Tableau clone = Instantiate(Resources.Load<Tableau>("Prefabs/Tableau"), transform);
 
-            RectTransform rectTransform = clone.GetComponent<RectTransform>();
-
-            rectTransform.anchoredPosition = new Vector2(-offest + i * 150, 0);
-
             tableaus.Add(clone);
         }
     }

@@ -1,10 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
-using UnityEngine.UI;
-
 
 public class Tableau : MonoBehaviour
 {
@@ -16,9 +13,13 @@ public class Tableau : MonoBehaviour
 
     [SerializeField] RectTransform rectTransform;
 
+    [SerializeField] float spacing = 67.5f;
+
     public int Count => cards.Count;
 
     public Card Peek  => cards[cards.Count - 1];
+
+    float scale = Screen.height / 1080f;
 
     private void Awake()
     {
@@ -44,7 +45,7 @@ public class Tableau : MonoBehaviour
 
             card.ParentTableau = this;
 
-            card.Animate(rectTransform, new Vector2(0, -i * 100));
+            card.Animate(rectTransform, new Vector2(0, -i * spacing * scale));
 
             yield return new WaitForSeconds(0.1f);
         }

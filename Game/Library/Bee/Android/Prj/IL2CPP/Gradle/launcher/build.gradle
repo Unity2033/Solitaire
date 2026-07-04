@@ -21,10 +21,10 @@ android {
 
     defaultConfig {
         applicationId "com.Search.Solitaire"
-        versionName "1.0"
+        versionName "1.3"
         minSdk 23
         targetSdk 36
-        versionCode 1
+        versionCode 4
 
         ndk {
             abiFilters "armeabi-v7a", "arm64-v8a"

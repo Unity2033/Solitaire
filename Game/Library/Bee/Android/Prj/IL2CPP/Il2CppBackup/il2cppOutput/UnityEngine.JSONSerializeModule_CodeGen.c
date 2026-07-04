@@ -12,9 +12,10 @@ extern void JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6
 extern void JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA (void);
 extern void JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53 (void);
 extern void JsonUtility_FromJson_m6DF4F85BE40F8A96BAFEC189306813ECE30DF44A (void);
+extern void JsonUtility_FromJsonOverwrite_mF60C8238431C1A42F7F482BB717757B281570D56 (void);
 extern void JsonUtility_ToJsonInternal_Injected_m98EE8DC30E5CE6834F164F7DD13F7119101157FB (void);
 extern void JsonUtility_FromJsonInternal_Injected_m796C743852FE6B4AAB666B1D6D7713FD1E0D55F5 (void);
-static Il2CppMethodPointer s_methodPointers[8] = 
+static Il2CppMethodPointer s_methodPointers[9] = 
 {
 	JsonUtility_ToJsonInternal_mB893BE1511779B2E36B24BC77D2FB52BF5894CDD,
 	JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6C0,
@@ -22,10 +23,11 @@ static Il2CppMethodPointer s_methodPointers[8] =
 	JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53,
 	NULL,
 	JsonUtility_FromJson_m6DF4F85BE40F8A96BAFEC189306813ECE30DF44A,
+	JsonUtility_FromJsonOverwrite_mF60C8238431C1A42F7F482BB717757B281570D56,
 	JsonUtility_ToJsonInternal_Injected_m98EE8DC30E5CE6834F164F7DD13F7119101157FB,
 	JsonUtility_FromJsonInternal_Injected_m796C743852FE6B4AAB666B1D6D7713FD1E0D55F5,
 };
-static const int32_t s_InvokerIndices[8] = 
+static const int32_t s_InvokerIndices[9] = 
 {
 	16480,
 	15112,
@@ -33,6 +35,7 @@ static const int32_t s_InvokerIndices[8] =
 	16480,
 	-1,
 	16489,
+	17162,
 	15568,
 	15069,
 };
@@ -51,7 +54,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_JSONSerializeModule_Code
 const Il2CppCodeGenModule g_UnityEngine_JSONSerializeModule_CodeGenModule = 
 {
 	"UnityEngine.JSONSerializeModule.dll",
-	8,
+	9,
 	s_methodPointers,
 	0,
 	NULL,

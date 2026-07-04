@@ -50,11 +50,15 @@ public class ScoreManager : MonoBehaviour
         }
 
         streak = 0;
+
+        DataManager.Instance.Session.selections = 0;
     }
 
     public void Save()
     {
         DataManager.Instance.Session.score += score;
+
+        AchievementManager.Instance.Achieve(Achievements.First, DataManager.Instance.Session);
 
         PlayGamesPlatform.Instance.ReportScore(DataManager.Instance.Session.score, leaderBoard, success => { Debug.Log(success); });
     }

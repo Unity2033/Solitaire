@@ -4,11 +4,6 @@ using UnityEngine.U2D;
 using UnityEngine.UI;
 using DG.Tweening;
 
-public enum Suit
-{
-    Spade, Heart, Diamond, Club
-}
-
 public class Card : MonoBehaviour
 {
     [SerializeField] Image sprite;

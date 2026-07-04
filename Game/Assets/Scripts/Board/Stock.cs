@@ -16,6 +16,8 @@ public class Stock : MonoBehaviour
 
     public void Draw()
     {
+        DataManager.Instance.Session.draws++;
+
         waste.Push(deck.Deal());
 
         GameManager.Instance.Determine();
@@ -28,5 +30,7 @@ public class Stock : MonoBehaviour
         {
             button.gameObject.SetActive(false);
         }         
+
+        AchievementManager.Instance.Achieve(Achievements.Third, DataManager.Instance.Session);
     }
 }

@@ -13,12 +13,28 @@ public class PlatformManager : MonoBehaviour
 
     void Awake()
     {
+        PlayGamesPlatform.Activate();
+
         Connect();
-    } 
+    }
 
     void Connect()
     {
-        PlayGamesPlatform.Instance.Authenticate(status => { if (status == SignInStatus.Success) { StartCoroutine(Success()); } else {  Failed(); } });
+        PlayGamesPlatform.Instance.Authenticate
+        (
+            status =>
+            {
+                if (status != SignInStatus.Success) 
+                { 
+                    Failed();
+
+                    return;
+                } 
+              
+                StartCoroutine(Success()); 
+                
+            }
+        );
     }
 
     IEnumerator Transition(float start, float end, float duration = 1.0f)
@@ -41,6 +57,17 @@ public class PlatformManager : MonoBehaviour
 
     public IEnumerator Success()
     {
+        DataManager.Instance.Load();
+
+        yield return new WaitUntil(() => DataManager.Instance.State == State.Ready || DataManager.Instance.State == State.Failed);
+
+        if (DataManager.Instance.State == State.Failed)
+        {
+            Failed();
+
+            yield break;
+        }
+
         yield return StartCoroutine(Transition(0f, 1f));
 
         SceneryManager.Instance.LoadScene("Title");

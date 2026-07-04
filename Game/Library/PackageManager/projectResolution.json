@@ -58,6 +58,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.mobile.android-logcat@1.4.7": {
+      "name": "com.unity.mobile.android-logcat",
+      "displayName": "Android Logcat",
+      "resolvedPath": "C:\\Users\\nwond\\Game\\Solitaire\\Game\\Library\\PackageCache\\com.unity.mobile.android-logcat@a8a404f035b3",
+      "fingerprint": "a8a404f035b303ff953fa7f31d3ad5ac477e5f2b",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.4.7",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
