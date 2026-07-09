@@ -61,3 +61,4 @@ MonoBehaviour:
   cards: []
   createCount: 5
   rectTransform: {fileID: 0}
+  spacing: 100

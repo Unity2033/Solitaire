@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Managers\TableauManager.cs" />
     <Compile Include="Assets\Scripts\Data\Achievements.cs" />
     <Compile Include="Assets\Scripts\Managers\SceneryManager.cs" />
+    <Compile Include="Assets\Scripts\Systems\Filter.cs" />
     <Compile Include="Assets\Scripts\Rule\Rule.cs" />
     <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\Data\Suit.cs" />

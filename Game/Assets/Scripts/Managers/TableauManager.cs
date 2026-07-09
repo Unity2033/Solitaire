@@ -8,8 +8,6 @@ public class TableauManager : MonoBehaviour
 {
     [SerializeField] int createCount = 7;
 
-    [SerializeField] float offest = 450.0f;
-
     [SerializeField] List<Tableau> tableaus;
 
     public IEnumerable<Tableau> Tableaus => tableaus;

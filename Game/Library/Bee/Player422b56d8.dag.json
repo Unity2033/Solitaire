@@ -1884,8 +1884,7 @@
         1874,
         1875,
         1876,
-        1877,
-        1878
+        1877
       ],
       "DebugActionIndex": 0
     },
@@ -56895,27 +56894,6 @@
       "DebugActionIndex": 1719
     },
     {
-      "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt",
-      "DisplayName": "Copying icallsummary.txt",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/Android/ManagedStripped/icallsummary.txt"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        11
-      ],
-      "DebugActionIndex": 1720
-    },
-    {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Mono.Security.dll",
       "DisplayName": "Copying Mono.Security.dll",
       "ActionType": "CopyFiles",
@@ -56934,7 +56912,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1721
+      "DebugActionIndex": 1720
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/mscorlib.dll",
@@ -56955,7 +56933,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1722
+      "DebugActionIndex": 1721
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Configuration.dll",
@@ -56976,7 +56954,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1723
+      "DebugActionIndex": 1722
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll",
@@ -56997,7 +56975,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1724
+      "DebugActionIndex": 1723
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.dll",
@@ -57018,7 +56996,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1725
+      "DebugActionIndex": 1724
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.dll",
@@ -57039,7 +57017,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1726
+      "DebugActionIndex": 1725
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.2D.Animation.Runtime.dll",
@@ -57060,7 +57038,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1727
+      "DebugActionIndex": 1726
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.2D.Animation.Runtime.pdb",
@@ -57081,7 +57059,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1728
+      "DebugActionIndex": 1727
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.dll",
@@ -57102,7 +57080,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1729
+      "DebugActionIndex": 1728
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.pdb",
@@ -57123,7 +57101,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1730
+      "DebugActionIndex": 1729
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.Unsafe.dll",
@@ -57144,7 +57122,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1731
+      "DebugActionIndex": 1730
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Collections.dll",
@@ -57165,7 +57143,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1732
+      "DebugActionIndex": 1731
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Collections.pdb",
@@ -57186,7 +57164,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1733
+      "DebugActionIndex": 1732
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.dll",
@@ -57207,7 +57185,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1734
+      "DebugActionIndex": 1733
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.ForUI.dll",
@@ -57228,7 +57206,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1735
+      "DebugActionIndex": 1734
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.ForUI.pdb",
@@ -57249,7 +57227,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1736
+      "DebugActionIndex": 1735
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.pdb",
@@ -57270,7 +57248,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1737
+      "DebugActionIndex": 1736
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InternalAPIEngineBridge.001.dll",
@@ -57291,7 +57269,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1738
+      "DebugActionIndex": 1737
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InternalAPIEngineBridge.001.pdb",
@@ -57312,7 +57290,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1739
+      "DebugActionIndex": 1738
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.dll",
@@ -57333,7 +57311,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1740
+      "DebugActionIndex": 1739
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.pdb",
@@ -57354,7 +57332,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1741
+      "DebugActionIndex": 1740
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
@@ -57375,7 +57353,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1742
+      "DebugActionIndex": 1741
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb",
@@ -57396,7 +57374,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1743
+      "DebugActionIndex": 1742
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Core.Runtime.dll",
@@ -57417,7 +57395,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1744
+      "DebugActionIndex": 1743
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Core.Runtime.pdb",
@@ -57438,7 +57416,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1745
+      "DebugActionIndex": 1744
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll",
@@ -57459,7 +57437,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1746
+      "DebugActionIndex": 1745
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Core.Runtime.Shared.pdb",
@@ -57480,7 +57458,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1747
+      "DebugActionIndex": 1746
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll",
@@ -57501,7 +57479,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1748
+      "DebugActionIndex": 1747
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.GPUDriven.Runtime.pdb",
@@ -57522,7 +57500,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1749
+      "DebugActionIndex": 1748
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
@@ -57543,7 +57521,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1750
+      "DebugActionIndex": 1749
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Universal.Runtime.pdb",
@@ -57564,7 +57542,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1751
+      "DebugActionIndex": 1750
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.dll",
@@ -57585,7 +57563,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1752
+      "DebugActionIndex": 1751
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.pdb",
@@ -57606,7 +57584,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1753
+      "DebugActionIndex": 1752
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AIModule.dll",
@@ -57627,7 +57605,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1754
+      "DebugActionIndex": 1753
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AIModule.pdb",
@@ -57648,7 +57626,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1755
+      "DebugActionIndex": 1754
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -57669,7 +57647,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1756
+      "DebugActionIndex": 1755
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.pdb",
@@ -57690,7 +57668,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1757
+      "DebugActionIndex": 1756
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.dll",
@@ -57711,7 +57689,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1758
+      "DebugActionIndex": 1757
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.pdb",
@@ -57732,7 +57710,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1759
+      "DebugActionIndex": 1758
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.dll",
@@ -57753,7 +57731,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1760
+      "DebugActionIndex": 1759
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.pdb",
@@ -57774,7 +57752,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1761
+      "DebugActionIndex": 1760
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll",
@@ -57795,7 +57773,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1762
+      "DebugActionIndex": 1761
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb",
@@ -57816,7 +57794,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1763
+      "DebugActionIndex": 1762
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll",
@@ -57837,7 +57815,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1764
+      "DebugActionIndex": 1763
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GameCenterModule.dll",
@@ -57858,7 +57836,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1765
+      "DebugActionIndex": 1764
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GameCenterModule.pdb",
@@ -57879,7 +57857,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1766
+      "DebugActionIndex": 1765
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.dll",
@@ -57900,7 +57878,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1767
+      "DebugActionIndex": 1766
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.pdb",
@@ -57921,7 +57899,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1768
+      "DebugActionIndex": 1767
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.HierarchyCoreModule.dll",
@@ -57942,7 +57920,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1769
+      "DebugActionIndex": 1768
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.HierarchyCoreModule.pdb",
@@ -57963,7 +57941,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1770
+      "DebugActionIndex": 1769
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.dll",
@@ -57984,7 +57962,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1771
+      "DebugActionIndex": 1770
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.pdb",
@@ -58005,7 +57983,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1772
+      "DebugActionIndex": 1771
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputForUIModule.dll",
@@ -58026,7 +58004,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1773
+      "DebugActionIndex": 1772
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputForUIModule.pdb",
@@ -58047,7 +58025,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1774
+      "DebugActionIndex": 1773
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.dll",
@@ -58068,7 +58046,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1775
+      "DebugActionIndex": 1774
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.pdb",
@@ -58089,7 +58067,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1776
+      "DebugActionIndex": 1775
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.dll",
@@ -58110,7 +58088,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1777
+      "DebugActionIndex": 1776
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.pdb",
@@ -58131,7 +58109,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1778
+      "DebugActionIndex": 1777
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -58152,7 +58130,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1779
+      "DebugActionIndex": 1778
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.pdb",
@@ -58173,7 +58151,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1780
+      "DebugActionIndex": 1779
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb",
@@ -58194,7 +58172,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1781
+      "DebugActionIndex": 1780
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.dll",
@@ -58215,7 +58193,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1782
+      "DebugActionIndex": 1781
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.pdb",
@@ -58236,7 +58214,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1783
+      "DebugActionIndex": 1782
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.dll",
@@ -58257,7 +58235,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1784
+      "DebugActionIndex": 1783
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.pdb",
@@ -58278,7 +58256,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1785
+      "DebugActionIndex": 1784
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.dll",
@@ -58299,7 +58277,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1786
+      "DebugActionIndex": 1785
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.pdb",
@@ -58320,7 +58298,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1787
+      "DebugActionIndex": 1786
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -58341,7 +58319,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1788
+      "DebugActionIndex": 1787
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.pdb",
@@ -58362,7 +58340,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1789
+      "DebugActionIndex": 1788
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -58383,7 +58361,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1790
+      "DebugActionIndex": 1789
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.pdb",
@@ -58404,7 +58382,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1791
+      "DebugActionIndex": 1790
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.dll",
@@ -58425,7 +58403,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1792
+      "DebugActionIndex": 1791
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.pdb",
@@ -58446,7 +58424,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1793
+      "DebugActionIndex": 1792
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TerrainModule.dll",
@@ -58467,7 +58445,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1794
+      "DebugActionIndex": 1793
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TerrainModule.pdb",
@@ -58488,7 +58466,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1795
+      "DebugActionIndex": 1794
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -58509,7 +58487,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1796
+      "DebugActionIndex": 1795
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
@@ -58530,7 +58508,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1797
+      "DebugActionIndex": 1796
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -58551,7 +58529,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1798
+      "DebugActionIndex": 1797
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
@@ -58572,7 +58550,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1799
+      "DebugActionIndex": 1798
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.dll",
@@ -58593,7 +58571,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1800
+      "DebugActionIndex": 1799
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.pdb",
@@ -58614,7 +58592,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1801
+      "DebugActionIndex": 1800
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.dll",
@@ -58635,7 +58613,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1802
+      "DebugActionIndex": 1801
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.pdb",
@@ -58656,7 +58634,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1803
+      "DebugActionIndex": 1802
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.dll",
@@ -58677,7 +58655,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1804
+      "DebugActionIndex": 1803
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.pdb",
@@ -58698,7 +58676,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1805
+      "DebugActionIndex": 1804
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.dll",
@@ -58719,7 +58697,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1806
+      "DebugActionIndex": 1805
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.pdb",
@@ -58740,7 +58718,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1807
+      "DebugActionIndex": 1806
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.dll",
@@ -58761,7 +58739,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1808
+      "DebugActionIndex": 1807
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.pdb",
@@ -58782,7 +58760,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1809
+      "DebugActionIndex": 1808
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -58803,7 +58781,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1810
+      "DebugActionIndex": 1809
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb",
@@ -58824,7 +58802,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1811
+      "DebugActionIndex": 1810
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -58845,7 +58823,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1812
+      "DebugActionIndex": 1811
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.pdb",
@@ -58866,7 +58844,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1813
+      "DebugActionIndex": 1812
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -58887,7 +58865,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1814
+      "DebugActionIndex": 1813
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestTextureModule.pdb",
@@ -58908,7 +58886,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1815
+      "DebugActionIndex": 1814
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VFXModule.dll",
@@ -58929,7 +58907,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1816
+      "DebugActionIndex": 1815
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VFXModule.pdb",
@@ -58950,7 +58928,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1817
+      "DebugActionIndex": 1816
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VRModule.dll",
@@ -58971,7 +58949,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1818
+      "DebugActionIndex": 1817
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VRModule.pdb",
@@ -58992,7 +58970,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1819
+      "DebugActionIndex": 1818
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.dll",
@@ -59013,7 +58991,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1820
+      "DebugActionIndex": 1819
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.pdb",
@@ -59034,7 +59012,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1821
+      "DebugActionIndex": 1820
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json",
@@ -59055,7 +59033,7 @@
       "ToBuildDependencies": [
         11
       ],
-      "DebugActionIndex": 1822
+      "DebugActionIndex": 1821
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Resources/unity default resources",
@@ -59073,7 +59051,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1823
+      "DebugActionIndex": 1822
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/IntermediateFiles.txt_ri9j.info",
@@ -59090,7 +59068,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 1824
+      "DebugActionIndex": 1823
     },
     {
       "Annotation": "ActionGenerateProjectFiles Library/Bee/artifacts/Android/IntermediateFiles.txt (+46 others)",
@@ -59303,10 +59281,10 @@
         0
       ],
       "ToBuildDependencies": [
-        1824
+        1823
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1825
+      "DebugActionIndex": 1824
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerGameActivity.java",
@@ -59324,7 +59302,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1826
+      "DebugActionIndex": 1825
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar",
@@ -59342,7 +59320,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1827
+      "DebugActionIndex": 1826
     },
     {
       "Annotation": "SourceBuildPlayerFiles",
@@ -59352,13 +59330,13 @@
       "Outputs": [],
       "OutputFlags": [],
       "ToBuildDependencies": [
-        1827,
+        1826,
+        1854,
         1855,
-        1856,
-        1866,
-        1873
+        1865,
+        1872
       ],
-      "DebugActionIndex": 1828
+      "DebugActionIndex": 1827
     },
     {
       "Annotation": "WriteText C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/app-metadata.properties",
@@ -59375,7 +59353,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1829
+      "DebugActionIndex": 1828
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/dependencies.pb_8je5.info",
@@ -59392,7 +59370,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 1830
+      "DebugActionIndex": 1829
     },
     {
       "Annotation": "WritePlayDependencies C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/dependencies.pb",
@@ -59441,11 +59419,11 @@
         8
       ],
       "ToBuildDependencies": [
-        1829,
-        1830
+        1828,
+        1829
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1831
+      "DebugActionIndex": 1830
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/IntermediateLauncherManifestDiag.txt_4oyd.info",
@@ -59462,7 +59440,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 1832
+      "DebugActionIndex": 1831
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/IntermediateLauncherManifestDiag.txt (+3 others)",
@@ -59690,10 +59668,10 @@
         121,
         123,
         125,
-        1832
+        1831
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1833
+      "DebugActionIndex": 1832
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml",
@@ -59711,7 +59689,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1834
+      "DebugActionIndex": 1833
     },
     {
       "Annotation": "WriteText C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml",
@@ -59728,7 +59706,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1835
+      "DebugActionIndex": 1834
     },
     {
       "Annotation": "WriteText C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v31/styles.xml",
@@ -59745,7 +59723,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1836
+      "DebugActionIndex": 1835
     },
     {
       "Annotation": "WriteText C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml",
@@ -59762,7 +59740,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1837
+      "DebugActionIndex": 1836
     },
     {
       "Annotation": "WriteText C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/colors.xml",
@@ -59779,7 +59757,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1838
+      "DebugActionIndex": 1837
     },
     {
       "Annotation": "WriteText C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
@@ -59796,7 +59774,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1839
+      "DebugActionIndex": 1838
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/strings.xml",
@@ -59814,7 +59792,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1840
+      "DebugActionIndex": 1839
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml",
@@ -59832,7 +59810,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1841
+      "DebugActionIndex": 1840
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml",
@@ -59850,7 +59828,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1842
+      "DebugActionIndex": 1841
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png",
@@ -59868,7 +59846,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1843
+      "DebugActionIndex": 1842
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon.png",
@@ -59886,7 +59864,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1844
+      "DebugActionIndex": 1843
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon.png",
@@ -59904,7 +59882,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1845
+      "DebugActionIndex": 1844
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon.png",
@@ -59922,7 +59900,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1846
+      "DebugActionIndex": 1845
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon.png",
@@ -59940,7 +59918,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1847
+      "DebugActionIndex": 1846
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png",
@@ -59958,7 +59936,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1848
+      "DebugActionIndex": 1847
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon_round.png",
@@ -59976,7 +59954,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1849
+      "DebugActionIndex": 1848
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon_round.png",
@@ -59994,7 +59972,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1850
+      "DebugActionIndex": 1849
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon_round.png",
@@ -60012,7 +59990,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1851
+      "DebugActionIndex": 1850
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png",
@@ -60030,7 +60008,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1852
+      "DebugActionIndex": 1851
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png",
@@ -60048,7 +60026,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1853
+      "DebugActionIndex": 1852
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png",
@@ -60066,7 +60044,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1854
+      "DebugActionIndex": 1853
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so",
@@ -60084,7 +60062,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1855
+      "DebugActionIndex": 1854
     },
     {
       "Annotation": "CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so",
@@ -60102,7 +60080,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1856
+      "DebugActionIndex": 1855
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_14r8.info",
@@ -60119,7 +60097,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 1857
+      "DebugActionIndex": 1856
     },
     {
       "Annotation": "ClassRegistrationGenerator C:/Users/nwond/Game/Solitaire/Game/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp",
@@ -60215,10 +60193,10 @@
       ],
       "ToBuildDependencies": [
         11,
-        1857
+        1856
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1858
+      "DebugActionIndex": 1857
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o",
@@ -60241,10 +60219,10 @@
         2
       ],
       "ToBuildDependencies": [
-        1858
+        1857
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1859
+      "DebugActionIndex": 1858
     },
     {
       "Annotation": "ICallRegistrationGenerator C:/Users/nwond/Game/Solitaire/Game/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp",
@@ -60330,7 +60308,7 @@
         11
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1860
+      "DebugActionIndex": 1859
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityICallRegistration.o",
@@ -60353,10 +60331,10 @@
         2
       ],
       "ToBuildDependencies": [
-        1860
+        1859
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1861
+      "DebugActionIndex": 1860
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so",
@@ -60385,11 +60363,11 @@
         2
       ],
       "ToBuildDependencies": [
-        1859,
-        1861
+        1858,
+        1860
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1862
+      "DebugActionIndex": 1861
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so",
@@ -60410,10 +60388,10 @@
         2
       ],
       "ToBuildDependencies": [
-        1862
+        1861
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1863
+      "DebugActionIndex": 1862
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so",
@@ -60434,10 +60412,10 @@
         2
       ],
       "ToBuildDependencies": [
-        1863
+        1862
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1864
+      "DebugActionIndex": 1863
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so",
@@ -60458,10 +60436,10 @@
         2
       ],
       "ToBuildDependencies": [
-        1862
+        1861
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1865
+      "DebugActionIndex": 1864
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so -> C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so",
@@ -60486,11 +60464,11 @@
         10
       ],
       "ToBuildDependencies": [
-        1864,
-        1865
+        1863,
+        1864
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1866
+      "DebugActionIndex": 1865
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o",
@@ -60513,10 +60491,10 @@
         2
       ],
       "ToBuildDependencies": [
-        1858
+        1857
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1867
+      "DebugActionIndex": 1866
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o",
@@ -60539,10 +60517,10 @@
         2
       ],
       "ToBuildDependencies": [
-        1860
+        1859
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1868
+      "DebugActionIndex": 1867
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so",
@@ -60571,11 +60549,11 @@
         2
       ],
       "ToBuildDependencies": [
-        1867,
-        1868
+        1866,
+        1867
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1869
+      "DebugActionIndex": 1868
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so",
@@ -60596,10 +60574,10 @@
         2
       ],
       "ToBuildDependencies": [
-        1869
+        1868
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1870
+      "DebugActionIndex": 1869
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so",
@@ -60620,10 +60598,10 @@
         2
       ],
       "ToBuildDependencies": [
-        1870
+        1869
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1871
+      "DebugActionIndex": 1870
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so",
@@ -60644,10 +60622,10 @@
         2
       ],
       "ToBuildDependencies": [
-        1869
+        1868
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1872
+      "DebugActionIndex": 1871
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so -> C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so",
@@ -60672,11 +60650,11 @@
         10
       ],
       "ToBuildDependencies": [
-        1871,
-        1872
+        1870,
+        1871
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1873
+      "DebugActionIndex": 1872
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_kkh3.info",
@@ -60693,7 +60671,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 1874
+      "DebugActionIndex": 1873
     },
     {
       "Annotation": "GuidGenerator C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -60758,10 +60736,10 @@
       "ToBuildDependencies": [
         6,
         129,
-        1874
+        1873
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1875
+      "DebugActionIndex": 1874
     },
     {
       "Annotation": "WriteText C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint",
@@ -60778,7 +60756,7 @@
       "OutputFlags": [
         10
       ],
-      "DebugActionIndex": 1876
+      "DebugActionIndex": 1875
     },
     {
       "Annotation": "ModifyAndroidProjectCallback C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml (+8 others)",
@@ -60921,14 +60899,14 @@
         0
       ],
       "ToBuildDependencies": [
+        1824,
         1825,
         1826,
-        1827,
-        1829,
-        1831,
-        1833
+        1828,
+        1830,
+        1832
       ],
-      "DebugActionIndex": 1877
+      "DebugActionIndex": 1876
     },
     {
       "Annotation": "Player",
@@ -61514,12 +61492,12 @@
         1820,
         1821,
         1822,
-        1823,
+        1824,
         1825,
         1826,
-        1827,
-        1829,
-        1831,
+        1828,
+        1830,
+        1832,
         1833,
         1834,
         1835,
@@ -61543,14 +61521,13 @@
         1853,
         1854,
         1855,
-        1856,
-        1866,
-        1873,
+        1865,
+        1872,
+        1874,
         1875,
-        1876,
-        1877
+        1876
       ],
-      "DebugActionIndex": 1878
+      "DebugActionIndex": 1877
     }
   ],
   "FileSignatures": [
@@ -62095,8 +62072,8 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "SourceBuildPlayerFiles": 1828,
-          "Player": 1878
+          "SourceBuildPlayerFiles": 1827,
+          "Player": 1877
         }
 ,  "DefaultNodes": [
     0

@@ -1,5 +1,7 @@
 ﻿using GooglePlayGames;
+using GooglePlayGames.BasicApi;
 using UnityEngine;
+using UnityEngine.SocialPlatforms;
 
 public class Menu : MonoBehaviour
 {
@@ -24,10 +26,37 @@ public class Menu : MonoBehaviour
         PlayGamesPlatform.Instance.ShowAchievementsUI();
     }
 
-    public void Guide()
+    public void Compare()
     {
         AudioManager.Instance.Emit(Sound.Button);
 
-        Application.OpenURL("https://unity2033.github.io/Solitaire/");
+        PlayGamesPlatform.Instance.localUser.LoadFriends(success =>
+        {
+            var local = PlayGamesPlatform.Instance.localUser;
+
+            var friends = local.friends;
+
+            string localId = local.id;
+
+            string identifier;
+            string name;
+
+            if (friends != null && friends.Length > 0)
+            {
+                var friend = friends[UnityEngine.Random.Range(0, friends.Length)];
+
+                identifier = friend.id;
+                name = friend.userName;
+            }
+            else
+            {
+                Debug.Log("No friends → fallback self compare");
+
+                identifier = localId;
+                name = local.userName;
+            }
+
+            PlayGamesPlatform.Instance.ShowCompareProfileWithAlternativeNameHintsUI(localId, identifier,name,(success) => {Debug.Log("Compare UI closed");});
+        });
     }
 }

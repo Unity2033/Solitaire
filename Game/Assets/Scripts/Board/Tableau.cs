@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Tableau : MonoBehaviour
 {
@@ -13,13 +14,13 @@ public class Tableau : MonoBehaviour
 
     [SerializeField] RectTransform rectTransform;
 
-    [SerializeField] float spacing = 67.5f;
+    [SerializeField] float spacing = 100f;
 
     public int Count => cards.Count;
 
     public Card Peek  => cards[cards.Count - 1];
 
-    float scale = Screen.height / 1080f;
+    float scale = Mathf.Clamp(Screen.height / 1920f, 0.9f, 1.2f);
 
     private void Awake()
     {

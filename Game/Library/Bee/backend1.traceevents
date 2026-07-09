@@ -1,125 +1,92 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1783144074030864, "dur":18598, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1783144074049491, "dur":2876, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1783144074052592, "dur":277, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1783144074052869, "dur":1187, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1783144074055932, "dur":196, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/Unity.TextMeshPro-FeaturesChecked.txt_c7od.info" }}
-,{ "pid":12345, "tid":0, "ts":1783144074056848, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.InputModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":0, "ts":1783144074057667, "dur":109, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UIModule-FeaturesChecked.txt_zatd.info" }}
-,{ "pid":12345, "tid":0, "ts":1783144074058275, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Library/Bee/artifacts/objcopy_b9ry/libil2cpp.dbg.so" }}
-,{ "pid":12345, "tid":0, "ts":1783144074060000, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ykx0nah4947y.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074060638, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/zd4cwz7wd6n8.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074061028, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/doyohoacsxkz.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074062109, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/enf2bshr0qng.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074062803, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/8jwwx8yp6er2.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074064726, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/f3ompk0x1g26.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074065233, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/hecuq1etibs3.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074065396, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/01xub0jyvbhs.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074068011, "dur":85, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/0jd0px3ftdxg.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074068130, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/os24qiz9cue4.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074069337, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/wrueq8bl8gyu.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074070362, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lo58h3p1hnmp.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074070987, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/j7l8e91vtjn6.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074072522, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7mx2hruzc4yv.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074072588, "dur":190, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/s20qx08wfsaf.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074073570, "dur":155, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/fvziw7xp4s4v.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074073761, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/myqbc66ie78d.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074073864, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ehls7du9q9of.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074074000, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lpflkf772vmb.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074074056, "dur":166, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mxz14un66x3q.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074074226, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7c3pk4139lfa.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074074581, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/u7j1xxtld5j1.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074075457, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zxa85uygfhsi.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074077710, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/a52sf5zsyh5n.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074079845, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/uitlsxyiwl11.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074080633, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ogkp7z4uqcxl.o" }}
-,{ "pid":12345, "tid":0, "ts":1783144074083492, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__31.cpp" }}
-,{ "pid":12345, "tid":0, "ts":1783144074085015, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__79.cpp" }}
-,{ "pid":12345, "tid":0, "ts":1783144074085317, "dur":95, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__87.cpp" }}
-,{ "pid":12345, "tid":0, "ts":1783144074085430, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__89.cpp" }}
-,{ "pid":12345, "tid":0, "ts":1783144074086205, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericClassTable.c" }}
-,{ "pid":12345, "tid":0, "ts":1783144074086309, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodDefinitions.c" }}
-,{ "pid":12345, "tid":0, "ts":1783144074086539, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppReversePInvokeWrapperTable.cpp" }}
-,{ "pid":12345, "tid":0, "ts":1783144074088384, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.GPUDriven.Runtime_CodeGen.c" }}
-,{ "pid":12345, "tid":0, "ts":1783144074090196, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c" }}
-,{ "pid":12345, "tid":0, "ts":1783144074091099, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__10.cpp" }}
-,{ "pid":12345, "tid":0, "ts":1783144074091554, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__3.cpp" }}
-,{ "pid":12345, "tid":0, "ts":1783144074091835, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI__2.cpp" }}
-,{ "pid":12345, "tid":0, "ts":1783144074092606, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":0, "ts":1783144074093073, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.pdb" }}
-,{ "pid":12345, "tid":0, "ts":1783144074093199, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":0, "ts":1783144074093482, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":0, "ts":1783144074094852, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1783144074095581, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar" }}
-,{ "pid":12345, "tid":0, "ts":1783144074096935, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"ModifyAndroidProjectCallback C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml (+8 others)" }}
-,{ "pid":12345, "tid":0, "ts":1783144074054134, "dur":42860, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1783144074097003, "dur":4116, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1783144074101121, "dur":98, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1783144074101238, "dur":3106, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1783144074104364, "dur":370, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1783144074104752, "dur":556, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1783144074105461, "dur":15935, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1783144074054037, "dur":42975, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1783144074097018, "dur":4092, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1783144074054074, "dur":42947, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1783144074097028, "dur":3055, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1783144074100449, "dur":822, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.FileSystem.Watcher.dll" }}
-,{ "pid":12345, "tid":2, "ts":1783144074103180, "dur":918, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Dynamic.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1783144074100084, "dur":4174, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1783144074054126, "dur":42906, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1783144074097037, "dur":3134, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1783144074100172, "dur":1018, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.dll" }}
-,{ "pid":12345, "tid":3, "ts":1783144074103159, "dur":1064, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1783144074100172, "dur":4518, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1783144074054174, "dur":42868, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1783144074097048, "dur":3581, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1783144074100629, "dur":783, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.ComponentModel.dll" }}
-,{ "pid":12345, "tid":4, "ts":1783144074103181, "dur":1096, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":4, "ts":1783144074100629, "dur":4644, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1783144074054211, "dur":42840, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1783144074098845, "dur":973, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\WindowsBase.dll" }}
-,{ "pid":12345, "tid":5, "ts":1783144074099818, "dur":618, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.runtimeconfig.json" }}
-,{ "pid":12345, "tid":5, "ts":1783144074100436, "dur":804, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.exe" }}
-,{ "pid":12345, "tid":5, "ts":1783144074097057, "dur":4321, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1783144074054261, "dur":42800, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1783144074097066, "dur":2726, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.dll" }}
-,{ "pid":12345, "tid":6, "ts":1783144074099792, "dur":641, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.deps.json" }}
-,{ "pid":12345, "tid":6, "ts":1783144074100434, "dur":857, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.TinyProfiler.dll" }}
-,{ "pid":12345, "tid":6, "ts":1783144074103101, "dur":1337, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.WebGL.dll" }}
-,{ "pid":12345, "tid":6, "ts":1783144074097066, "dur":7853, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1783144074054305, "dur":42766, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1783144074097078, "dur":2259, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.EmbeddedLinux.dll" }}
-,{ "pid":12345, "tid":7, "ts":1783144074099338, "dur":878, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
-,{ "pid":12345, "tid":7, "ts":1783144074100216, "dur":976, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.AppleTV.dll" }}
-,{ "pid":12345, "tid":7, "ts":1783144074103145, "dur":657, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":7, "ts":1783144074097078, "dur":6943, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1783144074054348, "dur":42734, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1783144074097087, "dur":1088, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Web.dll" }}
-,{ "pid":12345, "tid":8, "ts":1783144074098175, "dur":1158, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.ValueTuple.dll" }}
-,{ "pid":12345, "tid":8, "ts":1783144074099333, "dur":881, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Transactions.Local.dll" }}
-,{ "pid":12345, "tid":8, "ts":1783144074100215, "dur":947, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1783144074103094, "dur":808, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Channels.dll" }}
-,{ "pid":12345, "tid":8, "ts":1783144074097087, "dur":7654, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1783144074054395, "dur":42697, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1783144074097097, "dur":4167, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.ServiceProcess.dll" }}
-,{ "pid":12345, "tid":9, "ts":1783144074103157, "dur":932, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Claims.dll" }}
-,{ "pid":12345, "tid":9, "ts":1783144074097097, "dur":7478, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1783144074054436, "dur":42665, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1783144074097106, "dur":3321, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":10, "ts":1783144074100428, "dur":860, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Numerics.dll" }}
-,{ "pid":12345, "tid":10, "ts":1783144074103200, "dur":1138, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.CompilerServices.Unsafe.dll" }}
-,{ "pid":12345, "tid":10, "ts":1783144074097106, "dur":7875, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1783144074054488, "dur":42626, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1783144074097123, "dur":1502, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.Emit.ILGeneration.dll" }}
-,{ "pid":12345, "tid":11, "ts":1783144074098625, "dur":1182, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.Emit.dll" }}
-,{ "pid":12345, "tid":11, "ts":1783144074099808, "dur":626, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.dll" }}
-,{ "pid":12345, "tid":11, "ts":1783144074100434, "dur":818, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.DispatchProxy.dll" }}
-,{ "pid":12345, "tid":11, "ts":1783144074103144, "dur":996, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Sockets.dll" }}
-,{ "pid":12345, "tid":11, "ts":1783144074097123, "dur":7254, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1783144074054531, "dur":42596, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1783144074097128, "dur":3081, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Requests.dll" }}
-,{ "pid":12345, "tid":12, "ts":1783144074100209, "dur":1027, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Quic.dll" }}
-,{ "pid":12345, "tid":12, "ts":1783144074103189, "dur":1063, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.UnmanagedMemoryStream.dll" }}
-,{ "pid":12345, "tid":12, "ts":1783144074097128, "dur":7371, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1783144074130049, "dur":725, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1783303304840692, "dur":50, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1783303304840772, "dur":20288, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1783303304861071, "dur":17088, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1783303304878359, "dur":211, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1783303304878570, "dur":867, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1783303304880616, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"UnityLinker C:/Users/nwond/Game/Solitaire/Game/Library/Bee/artifacts/unitylinker_xy1a.traceevents" }}
+,{ "pid":12345, "tid":0, "ts":1783303304886461, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/utii4wg9dg96.o" }}
+,{ "pid":12345, "tid":0, "ts":1783303304887296, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/5fw8276l08ez.o" }}
+,{ "pid":12345, "tid":0, "ts":1783303304887548, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/r2s3vli5zp2a.o" }}
+,{ "pid":12345, "tid":0, "ts":1783303304890806, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ww184q0eym0z.o" }}
+,{ "pid":12345, "tid":0, "ts":1783303304891254, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/j6hi1zlt44r8.o" }}
+,{ "pid":12345, "tid":0, "ts":1783303304892883, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm32 Library/Bee/artifacts/Android/iz17e/67c1k0xoyg1c.o" }}
+,{ "pid":12345, "tid":0, "ts":1783303304896027, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.so" }}
+,{ "pid":12345, "tid":0, "ts":1783303304898140, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zkpw7oeruwrw.o" }}
+,{ "pid":12345, "tid":0, "ts":1783303304901717, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hp85d4mgqamr.o" }}
+,{ "pid":12345, "tid":0, "ts":1783303304906040, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1783303304906421, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__14.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1783303304906489, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__16.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1783303304906688, "dur":79, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__22.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1783303304907844, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__110.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1783303304910402, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1783303304912747, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__1.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1783303304914819, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/nwond/Game/Solitaire/Game/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule__3.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1783303304879518, "dur":40154, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1783303304919682, "dur":4597, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1783303304924280, "dur":151, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1783303304924455, "dur":4499, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1783303304928989, "dur":777, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1783303304929938, "dur":17428, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1783303304879886, "dur":39806, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1783303304919697, "dur":4573, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1783303304879925, "dur":39790, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1783303304919722, "dur":3435, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1783303304923158, "dur":1346, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.IsolatedStorage.dll" }}
+,{ "pid":12345, "tid":2, "ts":1783303304923158, "dur":5738, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1783303304879911, "dur":39791, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1783303304921687, "dur":651, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\Tools\\InternalCallRegistrationWriter\\InternalCallRegistrationWriter.exe" }}
+,{ "pid":12345, "tid":3, "ts":1783303304919711, "dur":3660, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1783303304923372, "dur":1153, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1783303304924525, "dur":510, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.Tracing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1783303304923372, "dur":5063, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1783303304879965, "dur":39764, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1783303304919734, "dur":4160, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1783303304923895, "dur":901, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.ComponentModel.dll" }}
+,{ "pid":12345, "tid":4, "ts":1783303304925126, "dur":1000, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.ComponentModel.Annotations.dll" }}
+,{ "pid":12345, "tid":4, "ts":1783303304923895, "dur":5810, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1783303304880018, "dur":39721, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1783303304921872, "dur":1286, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\WindowsBase.dll" }}
+,{ "pid":12345, "tid":5, "ts":1783303304923158, "dur":1366, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.runtimeconfig.json" }}
+,{ "pid":12345, "tid":5, "ts":1783303304924902, "dur":1134, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.dll.config" }}
+,{ "pid":12345, "tid":5, "ts":1783303304919745, "dur":6292, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1783303304880065, "dur":39684, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1783303304919755, "dur":1727, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.dll" }}
+,{ "pid":12345, "tid":6, "ts":1783303304921483, "dur":917, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.deps.json" }}
+,{ "pid":12345, "tid":6, "ts":1783303304922400, "dur":1345, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.TinyProfiler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1783303304923745, "dur":1084, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.Options.dll" }}
+,{ "pid":12345, "tid":6, "ts":1783303304925197, "dur":806, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.Linker.Api.Output.dll" }}
+,{ "pid":12345, "tid":6, "ts":1783303304926355, "dur":505, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Compile.dll" }}
+,{ "pid":12345, "tid":6, "ts":1783303304919754, "dur":9102, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1783303304880103, "dur":39657, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1783303304919766, "dur":3969, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.EmbeddedLinux.dll" }}
+,{ "pid":12345, "tid":7, "ts":1783303304923735, "dur":1137, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
+,{ "pid":12345, "tid":7, "ts":1783303304924872, "dur":1028, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.AppleTV.dll" }}
+,{ "pid":12345, "tid":7, "ts":1783303304919766, "dur":8988, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1783303304880151, "dur":39620, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1783303304919778, "dur":3360, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Web.dll" }}
+,{ "pid":12345, "tid":8, "ts":1783303304923138, "dur":1378, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.ValueTuple.dll" }}
+,{ "pid":12345, "tid":8, "ts":1783303304924881, "dur":978, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1783303304919778, "dur":9753, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1783303304880201, "dur":39583, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1783303304919790, "dur":2019, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.ServiceProcess.dll" }}
+,{ "pid":12345, "tid":9, "ts":1783303304921810, "dur":1337, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.ServiceModel.Web.dll" }}
+,{ "pid":12345, "tid":9, "ts":1783303304923147, "dur":1270, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.SecureString.dll" }}
+,{ "pid":12345, "tid":9, "ts":1783303304924418, "dur":592, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Principal.Windows.dll" }}
+,{ "pid":12345, "tid":9, "ts":1783303304925010, "dur":814, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Principal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1783303304919789, "dur":9148, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1783303304880261, "dur":39532, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1783303304919798, "dur":5064, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1783303304919798, "dur":8778, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1783303304880297, "dur":39507, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1783303304919811, "dur":4681, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.Emit.ILGeneration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1783303304924984, "dur":841, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.dll" }}
+,{ "pid":12345, "tid":11, "ts":1783303304919811, "dur":9121, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1783303304880339, "dur":39482, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1783303304919822, "dur":2609, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Requests.dll" }}
+,{ "pid":12345, "tid":12, "ts":1783303304922431, "dur":1318, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Quic.dll" }}
+,{ "pid":12345, "tid":12, "ts":1783303304923750, "dur":1067, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Primitives.dll" }}
+,{ "pid":12345, "tid":12, "ts":1783303304924991, "dur":755, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.6f2\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.NetworkInformation.dll" }}
+,{ "pid":12345, "tid":12, "ts":1783303304919822, "dur":9221, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1783303304955159, "dur":682, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
